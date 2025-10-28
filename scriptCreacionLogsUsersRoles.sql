@@ -76,6 +76,19 @@ CREATE ROLE R_Administrador;
 
 --LE ASIGNAMOS QUE PRIVILEGIOS PUEDE REALIZAR EN QUE TABLAS AL ROLE CREADO ANTERIORMENTE
 
+--PRIVILEGIOS PARA EL ROL DE MEDICO
+
+
+
+
+
+
+
+
+
+
+
+
 --AGREGAMOS MIEMBROS A ESE ROL CREADO
 --EXEC sp_addrolemember 'rol', 'usuario'; Si quieren colocarlo con el procedimiento almacenado de caso contrario con alter role add member
 ALTER ROLE R_00086224_consultor ADD MEMBER U_00086224_consultor;
