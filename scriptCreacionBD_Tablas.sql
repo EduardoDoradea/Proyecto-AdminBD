@@ -40,7 +40,7 @@ tipo VARCHAR(255),
 ubicacion NVARCHAR(255),
 idMedicamento BIGINT,
 idInstrumento BIGINT,
-cantidad INT
+cantidad INT,
 FOREIGN KEY (idMedicamento) REFERENCES Medicamento(idMedicamento),
 FOREIGN KEY (idInstrumento) REFERENCES InstrumentoMedico(idInstrumento)
 );
@@ -61,7 +61,7 @@ idPaciente BIGINT IDENTITY PRIMARY KEY,
 nombre NVARCHAR(255),
 apellido NVARCHAR(255),
 dui INT,
-telefono INT,
+telefono INT
 );
 
 CREATE TABLE Cita(
