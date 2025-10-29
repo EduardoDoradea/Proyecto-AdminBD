@@ -1,19 +1,19 @@
 
---CREACION DE ESQUEMAS PARA LA BASE DE DATOS 
+--CREACION DE ESQUEMAS PARA LA BASE DE DATOS
 
-CREATE SCHEMA Inventario;
-	
-ALTER SCHEMA Inventario TRANSFER InstrumentoMedico;
-ALTER SCHEMA Inventario TRANSFER InstrumentoMedico;
-ALTER SCHEMA Inventario TRANSFER InstrumentoMedico;
-ALTER SCHEMA Inventario TRANSFER InstrumentoMedico;
+CREATE SCHEMA Inventario AUTHORIZATION R_Administrador;
 
-CREATE SCHEMA Contabilidad;
+ALTER SCHEMA Inventario TRANSFER InstrumentoMedico;
+ALTER SCHEMA Inventario TRANSFER Bodega;
+ALTER SCHEMA Inventario TRANSFER Medicamento;
+ALTER SCHEMA Inventario TRANSFER Analgesico;
+
+CREATE SCHEMA Contabilidad AUTHORIZATION R_Administrador;
 
 ALTER SCHEMA Contabilidad TRANSFER MetodoPago;
 ALTER SCHEMA Contabilidad TRANSFER Factura;
 
-CREATE SCHEMA Clinica;
+CREATE SCHEMA Clinica AUTHORIZATION R_Administrador;
 
 ALTER SCHEMA Clinica TRANSFER Tratamiento;
 ALTER SCHEMA Clinica TRANSFER Cita;
@@ -21,13 +21,18 @@ ALTER SCHEMA Clinica TRANSFER Medico;
 ALTER SCHEMA Clinica TRANSFER DepaXMed;
 ALTER SCHEMA Clinica TRANSFER Paciente;
 
-CREATE SCHEMA Administracion;
+CREATE SCHEMA Administracion AUTHORIZATION R_Administrador;
 
 ALTER SCHEMA Administracion TRANSFER Departamento;
 
-
-
-
 SELECT name
-FROM sys.sysusers
-WHERE name LIKE 'R_'
+FROM sys.schemas
+
+
+SELECT s.name AS Esquema, 
+o.name AS Objeto, 
+o.type_desc AS Tipo
+FROM sys.objects o
+JOIN sys.schemas s ON o.schema_id= s.schema_id
+WHERE s.name LIKE 'Inventario'
+ORDER BY s.name

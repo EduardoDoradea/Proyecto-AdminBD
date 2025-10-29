@@ -10,7 +10,6 @@ WITH PASSWORD = 'D!@gn0s1s101!',
 CHECK_POLICY = ON,
 CHECK_EXPIRATION = OFF;
 
-
 CREATE LOGIN L_Secretaria
 WITH PASSWORD = 'Ag3nd@$F@ctura%',
 CHECK_POLICY = ON,
@@ -23,11 +22,6 @@ CHECK_EXPIRATION = OFF;
 
 CREATE LOGIN L_Auxiliar_Bodega
 WITH PASSWORD = '!nv3nt@r1oC4ja$',
-CHECK_POLICY = ON,
-CHECK_EXPIRATION = OFF;
-
-CREATE LOGIN L_Enfermera
-WITH PASSWORD = 'R0ndaS@lud!99',
 CHECK_POLICY = ON,
 CHECK_EXPIRATION = OFF;
 
@@ -69,14 +63,15 @@ CREATE ROLE R_Operador;
 
 --PRIVILEGIOS PARA EL ROL DE MEDICO
 
+/*EJEMPLO DE COMO DEBEN HACER LAS INSERCIONES DE LOS PRIVILEGIOS A LOS ROLES :(*/
+GRANT SELECT ON Inventario.Medicamento TO R_Medico;
 
-use DB_Hospital
+EXECUTE AS USER = 'U_Medico';
 
+select * 
+from Inventario.Medicamento
 
-
-
-
-
+REVERT
 
 --AGREGAMOS MIEMBROS A ESE ROL CREADO
 --EXEC sp_addrolemember 'rol', 'usuario'; Si quieren colocarlo con el procedimiento almacenado de caso contrario con alter role add member
