@@ -60,18 +60,54 @@ CREATE ROLE R_Ingeniero;
 CREATE ROLE R_Operador;
 
 --LE ASIGNAMOS QUE PRIVILEGIOS PUEDE REALIZAR EN QUE TABLAS AL ROLE CREADO ANTERIORMENTE
+USE DB_Hospital
 
 --PRIVILEGIOS PARA EL ROL DE MEDICO
-
-/*EJEMPLO DE COMO DEBEN HACER LAS INSERCIONES DE LOS PRIVILEGIOS A LOS ROLES :(*/
 GRANT SELECT ON Inventario.Medicamento TO R_Medico;
+GRANT SELECT ON Inventario.Analgesico TO R_Medico;
+GRANT SELECT ON Clinica.Cita TO R_Medico;
+GRANT SELECT ON Clinica.Paciente TO R_Medico;
+GRANT SELECT ON Administracion.Departamento TO R_Medico;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Clinica.Tratamiento TO R_Medico;
 
+--PROBANDOLOS
 EXECUTE AS USER = 'U_Medico';
 
-select * 
-from Inventario.Medicamento
+--SIN ERROR
+select * from Inventario.Medicamento
+select * from Inventario.Analgesico
+select * from Clinica.Cita
+select * from Clinica.Paciente
+select * from Administracion.Departamento
+select * from Clinica.Tratamiento
+
+--CON ERROR
+select * from Inventario.Bodega
 
 REVERT
+
+--PRIVILEGIOS PARA EL ROL DE FARMACEUTICO
+GRANT SELECT ON Inventario.InstrumentoMedico TO R_Farmaceutico;
+GRANT SELECT ON Inventario.Bodega TO R_Farmaceutico;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.Medicamento TO R_Farmaceutico;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.Analgesico TO R_Farmaceutico;
+
+--PROBANDOLOS
+--SIN ERROR
+EXECUTE AS USER = 'U_Farmaceutico';
+select * from Inventario.InstrumentoMedico
+select * from Inventario.Bodega
+select * from Inventario.Medicamento
+select * from Inventario.Analgesico
+
+--CON ERROR
+select * from Clinica.Tratamiento
+
+REVERT
+
+--PRIVILEGIOS PARA EL ROL DE SECRETARIA
+--PRIVILEGIOS PARA EL ROL DE AUXILIAR_BODEGA
+
 
 --AGREGAMOS MIEMBROS A ESE ROL CREADO
 --EXEC sp_addrolemember 'rol', 'usuario'; Si quieren colocarlo con el procedimiento almacenado de caso contrario con alter role add member

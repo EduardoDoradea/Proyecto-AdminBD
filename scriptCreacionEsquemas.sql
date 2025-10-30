@@ -34,5 +34,29 @@ o.name AS Objeto,
 o.type_desc AS Tipo
 FROM sys.objects o
 JOIN sys.schemas s ON o.schema_id= s.schema_id
-WHERE s.name LIKE 'Inventario'
+WHERE s.name LIKE 'Inventario' AND o.type_desc LIKE 'USER_TABLE'
+ORDER BY s.name
+
+SELECT s.name AS Esquema, 
+o.name AS Objeto, 
+o.type_desc AS Tipo
+FROM sys.objects o
+JOIN sys.schemas s ON o.schema_id= s.schema_id
+WHERE s.name LIKE 'Contabilidad' AND o.type_desc LIKE 'USER_TABLE'
+ORDER BY s.name
+
+SELECT s.name AS Esquema, 
+o.name AS Objeto, 
+o.type_desc AS Tipo
+FROM sys.objects o
+JOIN sys.schemas s ON o.schema_id= s.schema_id
+WHERE s.name LIKE 'Clinica' AND o.type_desc LIKE 'USER_TABLE'
+ORDER BY s.name
+
+SELECT s.name AS Esquema, 
+o.name AS Objeto, 
+o.type_desc AS Tipo
+FROM sys.objects o
+JOIN sys.schemas s ON o.schema_id= s.schema_id
+WHERE s.name LIKE 'Administracion' AND o.type_desc LIKE 'USER_TABLE'
 ORDER BY s.name
