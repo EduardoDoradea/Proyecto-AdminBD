@@ -31,12 +31,9 @@ ADD(SELECT, INSERT, UPDATE, DELETE ON OBJECT::Clinica.Paciente BY R_Auxiliar_Bod
 ADD(SELECT, INSERT, UPDATE, DELETE ON OBJECT::Contabilidad.Factura BY R_Auxiliar_Bodega),
 ADD(SELECT, INSERT, UPDATE, DELETE ON OBJECT::Contabilidad.MetodoPago BY R_Auxiliar_Bodega);
 
-
 -- Activar la auditoría a nivel base de datos
 ALTER DATABASE AUDIT SPECIFICATION AuditoriaHospital 
 WITH (STATE = ON);
 
 SELECT event_time, server_principal_name, database_name, database_principal_name, schema_name, object_name, statement
 FROM sys.fn_get_audit_file('C:\SQLAudit\AuditoriaHospital\*.sqlaudit', DEFAULT, DEFAULT);
-
-
