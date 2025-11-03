@@ -106,8 +106,31 @@ select * from Clinica.Tratamiento
 REVERT
 
 --PRIVILEGIOS PARA EL ROL DE SECRETARIA
---PRIVILEGIOS PARA EL ROL DE AUXILIAR_BODEGA
+GRANT SELECT, INSERT, UPDATE, DELETE ON Clinica.Cita TO R_Secretaria;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Contabilidad.MetodoPago TO R_Secretaria;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Contabilidad.Factura TO R_Secretaria;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Clinica.Paciente TO R_Secretaria;
+GRANT SELECT ON Clinica.Tratamiento TO R_Secretaria;
+GRANT SELECT ON Clinica.Medico TO R_Secretaria;
+GRANT SELECT ON Administracion.Departamento TO R_Secretaria;
 
+--FALTA PROBARLOS
+EXECUTE AS USER = 'U_Secretaria';
+
+
+REVERT
+
+--PRIVILEGIOS PARA EL ROL DE AUXILIAR_BODEGA
+GRANT SELECT ON Inventario.Medicamento TO R_Auxiliar_Bodega;
+GRANT SELECT ON Inventario.Analgesico TO R_Auxiliar_Bodega;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.InstrumentoMedico TO R_Auxiliar_Bodega;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.Bodega TO R_Auxiliar_Bodega;
+
+--FALTA PROBARLOS 
+EXECUTE AS USER = 'U_Auxiliar_Bodega';
+
+
+REVERT
 
 --AGREGAMOS MIEMBROS A ESE ROL CREADO
 --EXEC sp_addrolemember 'rol', 'usuario'; Si quieren colocarlo con el procedimiento almacenado de caso contrario con alter role add member
