@@ -114,9 +114,19 @@ GRANT SELECT ON Clinica.Tratamiento TO R_Secretaria;
 GRANT SELECT ON Clinica.Medico TO R_Secretaria;
 GRANT SELECT ON Administracion.Departamento TO R_Secretaria;
 
---FALTA PROBARLOS
+--PROBANDOLOS
+--SIN ERROR
 EXECUTE AS USER = 'U_Secretaria';
+SELECT * FROM Clinica.Cita
+SELECT * FROM Contabilidad.MetodoPago
+SELECT * FROM Contabilidad.Factura
+SELECT * FROM Clinica.Paciente
+SELECT * FROM Clinica.Tratamiento
+SELECT * FROM Clinica.Medico
+SELECT * FROM Administracion.Departamento
 
+--CON ERROR
+SELECT * FROM Inventario.Bodega
 
 REVERT
 
@@ -126,9 +136,16 @@ GRANT SELECT ON Inventario.Analgesico TO R_Auxiliar_Bodega;
 GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.InstrumentoMedico TO R_Auxiliar_Bodega;
 GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.Bodega TO R_Auxiliar_Bodega;
 
---FALTA PROBARLOS 
+--PROBANDOLOS
+--SIN ERROR
 EXECUTE AS USER = 'U_Auxiliar_Bodega';
+SELECT * FROM Inventario.Medicamento
+SELECT * FROM Inventario.Analgesico
+SELECT * FROM Inventario.InstrumentoMedico
+SELECT * FROM Inventario.Bodega
 
+--CON ERROR
+SELECT * FROM Clinica.Paciente
 
 REVERT
 
