@@ -61,7 +61,7 @@ idPaciente BIGINT IDENTITY PRIMARY KEY,
 nombre NVARCHAR(255),
 apellido NVARCHAR(255),
 dui INT,
-telefono INT
+telefono VARCHAR(50)
 );
 
 CREATE TABLE Cita(
@@ -90,9 +90,8 @@ FOREIGN KEY (idCita) REFERENCES Cita(idCita)
 CREATE TABLE Factura(
 idFactura BIGINT IDENTITY PRIMARY KEY,
 monto DECIMAL(8,2),
-metodoPago NVARCHAR(255),
 descripcion NVARCHAR(MAX),
-fechaPago DATE,
+fecha DATE,
 estado VARCHAR(255),
 idMetodoPago BIGINT,
 idCita BIGINT,
