@@ -28,7 +28,6 @@ ALTER SCHEMA Administracion TRANSFER Departamento;
 SELECT name
 FROM sys.schemas
 
-
 SELECT s.name AS Esquema, 
 o.name AS Objeto, 
 o.type_desc AS Tipo

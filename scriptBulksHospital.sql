@@ -71,8 +71,6 @@ WITH(
 	CODEPAGE = '65001'
 );
 
-select * from Clinica.Cita
-
 -- INSERCION DE DATOS DE TRATAMIENTO 300 datos
 BULK INSERT Clinica.Tratamiento
 FROM 'C:\bulkData\Tratamiento.csv'
