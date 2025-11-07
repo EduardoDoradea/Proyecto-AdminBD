@@ -1,19 +1,19 @@
 
 --CREACION DE ESQUEMAS PARA LA BASE DE DATOS
 
-CREATE SCHEMA Inventario AUTHORIZATION R_Administrador;
+CREATE SCHEMA Inventario AUTHORIZATION db_owner;
 
 ALTER SCHEMA Inventario TRANSFER InstrumentoMedico;
 ALTER SCHEMA Inventario TRANSFER Bodega;
 ALTER SCHEMA Inventario TRANSFER Medicamento;
 ALTER SCHEMA Inventario TRANSFER Analgesico;
 
-CREATE SCHEMA Contabilidad AUTHORIZATION R_Administrador;
+CREATE SCHEMA Contabilidad AUTHORIZATION db_owner;
 
 ALTER SCHEMA Contabilidad TRANSFER MetodoPago;
 ALTER SCHEMA Contabilidad TRANSFER Factura;
 
-CREATE SCHEMA Clinica AUTHORIZATION R_Administrador;
+CREATE SCHEMA Clinica AUTHORIZATION db_owner;
 
 ALTER SCHEMA Clinica TRANSFER Tratamiento;
 ALTER SCHEMA Clinica TRANSFER Cita;
@@ -21,7 +21,7 @@ ALTER SCHEMA Clinica TRANSFER Medico;
 ALTER SCHEMA Clinica TRANSFER DepaXMed;
 ALTER SCHEMA Clinica TRANSFER Paciente;
 
-CREATE SCHEMA Administracion AUTHORIZATION R_Administrador;
+CREATE SCHEMA Administracion AUTHORIZATION db_owner;
 
 ALTER SCHEMA Administracion TRANSFER Departamento;
 

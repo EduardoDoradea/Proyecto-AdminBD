@@ -3,7 +3,7 @@
 
 --INSERCION DE DATOS DE INSTRUMENTOMEDICO 450 datos
 BULK INSERT Inventario.InstrumentoMedico
-FROM 'C:\bulk_data\InstrumentoMedico.csv'
+FROM 'C:\bulkData\InstrumentoMedico.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -13,7 +13,7 @@ WITH(
 
 --INSERCION DE DATOS DE ANALGESICO 500 datos
 BULK INSERT Inventario.Analgesico
-FROM 'C:\bulk_data\Analgesico.csv'
+FROM 'C:\bulkData\Analgesico.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -23,7 +23,7 @@ WITH(
 
 --INSERCION DE DATOS DE MEDICAMENTO 500 datos
 BULK INSERT Inventario.Medicamento
-FROM 'C:\bulk_data\Medicamento.csv'
+FROM 'C:\bulkData\Medicamento.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -33,7 +33,7 @@ WITH(
 
 --INSERCION DE DATOS DE BODEGA 600 datos
 BULK INSERT Inventario.Bodega
-FROM 'C:\bulk_data\Bodega.csv'
+FROM 'C:\bulkData\Bodega.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -43,7 +43,7 @@ WITH(
 
 --INSERCION DE DATOS DE MEDICO 200 datos
 BULK INSERT Clinica.Medico
-FROM 'C:\bulk_data\Medico.csv'
+FROM 'C:\bulkData\Medico.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -53,7 +53,7 @@ WITH(
 
 -- INSERCION DE DATOS PACIENTE 850 datos
 BULK INSERT Clinica.Paciente
-FROM 'C:\bulk_data\Paciente.csv'
+FROM 'C:\bulkData\Paciente.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -63,7 +63,7 @@ WITH(
 
 --INSERCION DE DATOS DE CITA 1000 datos
 BULK INSERT Clinica.Cita 
-FROM 'C:\bulk_data\Cita.csv'
+FROM 'C:\bulkData\Cita.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -75,7 +75,7 @@ select * from Clinica.Cita
 
 -- INSERCION DE DATOS DE TRATAMIENTO 300 datos
 BULK INSERT Clinica.Tratamiento
-FROM 'C:\bulk_data\Tratamiento.csv'
+FROM 'C:\bulkData\Tratamiento.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -85,7 +85,7 @@ WITH(
 
 -- INSERCION DE DATOS DE METODOPAGO 500 datos
 BULK INSERT Contabilidad.MetodoPago
-FROM 'C:\bulk_data\MetodoPago.csv'
+FROM 'C:\bulkData\MetodoPago.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -95,7 +95,7 @@ WITH(
 
 -- INSERCION DE DATOS DE FACTURA
 BULK INSERT Contabilidad.Factura
-FROM 'C:\bulk_data\Factura.csv'
+FROM 'C:\bulkData\Factura.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -105,7 +105,7 @@ WITH(
 
 --INSERCION DE DATOS DE DEPARTAMENTO 200 datos (INSERTE DOS VECES)
 BULK INSERT Administracion.Departamento
-FROM 'C:\bulk_data\Departamento.csv'
+FROM 'C:\bulkData\Departamento.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',
@@ -115,7 +115,7 @@ WITH(
 
 -- INSERCION DE DATOS DE DEPAXMED 200 datos
 BULK INSERT Clinica.DepaXMed
-FROM 'C:\bulk_data\DepaXMed.csv'
+FROM 'C:\bulkData\DepaXMed.csv'
 WITH(
 	FIELDTERMINATOR = ',',
 	ROWTERMINATOR = '\n',

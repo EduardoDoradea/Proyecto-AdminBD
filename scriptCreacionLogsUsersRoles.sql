@@ -56,8 +56,6 @@ CREATE ROLE R_Medico;
 CREATE ROLE R_Secretaria;
 CREATE ROLE R_Farmaceutico;
 CREATE ROLE R_Auxiliar_Bodega;
-CREATE ROLE R_Ingeniero;
-CREATE ROLE R_Operador;
 
 --LE ASIGNAMOS QUE PRIVILEGIOS PUEDE REALIZAR EN QUE TABLAS AL ROLE CREADO ANTERIORMENTE
 USE DB_Hospital
@@ -155,8 +153,8 @@ EXEC sp_addrolemember 'R_Medico', 'U_Medico'
 EXEC sp_addrolemember 'R_Secretaria', 'U_Secretaria'
 EXEC sp_addrolemember 'R_Farmaceutico', 'U_Farmaceutico'
 EXEC sp_addrolemember 'R_Auxiliar_Bodega', 'U_Auxiliar_Bodega'
-EXEC sp_addrolemember 'R_Ingeniero', 'U_Ingeniero'
-EXEC sp_addrolemember 'R_Administrador', 'U_Administrador'
-EXEC sp_addrolemember 'R_Operador', 'U_Operador'
+EXEC sp_addrolemember 'db_datareader', 'U_Ingeniero'
+EXEC sp_addrolemember 'db_owner', 'U_Administrador'
+EXEC sp_addrolemember 'db_backupoperator', 'U_Operador'
 
 
