@@ -5,7 +5,7 @@ SET STATISTICS TIME ON
 SET STATISTICS IO ON
 
 --REALIZADA
--- pacientes con mas servicios han solicitado
+-- 1 pacientes con mas servicios han solicitado
 SELECT pa.nombre, pa.apellido, ci.especialidad,
 COUNT(ci.idCita) citasRealizadas,
 DENSE_RANK() OVER(PARTITION BY ci.especialidad ORDER BY COUNT(ci.idCita)DESC) rankingPacienteServicios
@@ -13,16 +13,42 @@ FROM Clinica.Paciente AS pa
 JOIN Clinica.Cita AS ci ON pa.idPaciente = ci.idPaciente
 GROUP BY pa.nombre, pa.apellido, ci.especialidad
 
+SET STATISTICS TIME OFF 
+SET STATISTICS IO OFF
+
+-- INDICES 
+CREATE NONCLUSTERED INDEX IX_ClinicaPaciente_NonClustered
+ON Clinica.Paciente (nombre, apellido);
+
+CREATE NONCLUSTERED INDEX IX_ClinicaCitaPa_NonClustered
+ON Clinica.Cita (especialidad, idCita, idPaciente);
+
+SET STATISTICS TIME ON 
+SET STATISTICS IO ON
+
 --REALIZADA
--- medicos que mas servicios han brindado
+-- 2 medicos que mas servicios han brindado
 SELECT med.nombre, 
 COUNT(ci.idCita) tratamientosMedico,
 DENSE_RANK() OVER(ORDER BY COUNT(ci.idCita)DESC) rankingMedicoServicios
-FROM Clinica.Cita AS ci1
+FROM Clinica.Cita AS ci
 JOIN Clinica.Medico AS med ON ci.idMedico = med.idMedico
 GROUP BY med.nombre
 
--- cuales son los analgesicos mas solicitados
+SET STATISTICS TIME OFF 
+SET STATISTICS IO OFF
+
+-- INDICES
+CREATE NONCLUSTERED INDEX IX_ClinicaMedico_NonClustered
+ON Clinica.Medico (nombre);
+
+CREATE NONCLUSTERED INDEX IX_ClinicaCitaMed_NonClustered
+ON Clinica.Cita (idCita, idMedico);
+
+SET STATISTICS TIME ON 
+SET STATISTICS IO ON
+
+-- 3 cuales son los analgesicos mas solicitados
 SELECT an.tipo, 
 COUNT(tr.idTratamiento) tipoAnalgesicoSolicitado,
 ROW_NUMBER() OVER(ORDER BY COUNT(tr.idTratamiento)DESC) ranking
@@ -31,16 +57,24 @@ JOIN Inventario.Medicamento AS medi ON tr.idMedicamento = medi.idMedicamento
 JOIN Inventario.Analgesico as an ON medi.idAnalgesico = an.idAnalgesico
 GROUP BY an.tipo
 
-SELECT medi.nombre, ci.motivo, 
-COUNT(tr.idTratamiento),
-DENSE_RANK() OVER(PARTITION BY ci.especialidad ORDER BY COUNT(tr.idTratamiento)DESC) ranking
-FROM Clinica.Tratamiento AS tr
-JOIN Inventario.Medicamento AS medi ON tr.idMedicamento = medi.idMedicamento
-JOIN Clinica.Cita AS ci ON tr.idCita = ci.idCita
-GROUP BY medi.nombre, ci.motivo, ci.especialidad
+SET STATISTICS TIME OFF 
+SET STATISTICS IO OFF
+
+-- INDICES
+CREATE NONCLUSTERED INDEX IX_ClinicaTratamiento_NonClustered
+ON Clinica.Tratamiento (idTratamiento, idMedicamento);
+
+CREATE NONCLUSTERED INDEX IX_InventarioAnalgesico_NonClustered
+ON Inventario.Analgesico (tipo);
+
+CREATE NONCLUSTERED INDEX IX_InventarioMedicamento_NonClustered
+ON Inventario.Medicamento (idAnalgesico);
+
+SET STATISTICS TIME ON 
+SET STATISTICS IO ON
 
 --REALIZADA
--- cual es el metodo de pago mas usado para pagar en cada especialidad
+-- 4 cual es el metodo de pago mas usado para pagar en cada especialidad
 SELECT ci.especialidad, mp.tipo, 
 COUNT(fac.idFactura) AS tiposDePago,
 DENSE_RANK() OVER(PARTITION BY ci.especialidad ORDER BY COUNT(fac.idFactura) DESC) AS ranking 
@@ -49,3 +83,15 @@ JOIN Contabilidad.MetodoPago AS mp ON fac.idMetodoPago = mp.idMetodoPago
 JOIN Clinica.Cita AS ci ON fac.idCita = ci.idCita
 GROUP BY ci.especialidad, mp.tipo
 
+SET STATISTICS TIME OFF 
+SET STATISTICS IO OFF
+
+-- INDICES
+CREATE NONCLUSTERED INDEX IX_ContabilidadFactura_NonClustered
+ON Contabilidad.Factura (idFactura, idMetodoPago, idCita);
+
+CREATE NONCLUSTERED INDEX IX_ContabilidadMetodoPago_NonClustered
+ON Contabilidad.MetodoPago (tipo);
+
+CREATE NONCLUSTERED INDEX IX_CitaFactura_NonClustered
+ON Clinica.Cita (especialidad);
