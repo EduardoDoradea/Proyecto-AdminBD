@@ -83,7 +83,7 @@ WITH(
 	CODEPAGE = '65001'
 );
 
-SELECT * FROM Clinica.Cita;
+SELECT COUNT(*) AS Citas FROM Clinica.Cita;
 
 -- INSERCION DE DATOS DE TRATAMIENTO 300 datos
 BULK INSERT Clinica.Tratamiento
