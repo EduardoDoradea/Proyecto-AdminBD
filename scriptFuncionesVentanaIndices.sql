@@ -1,18 +1,20 @@
+USE DB_Hospital
+
 
 /*CREACION DE FUNCIONES VENTANA E INDICES EN EL MISMO SCRIPT*/
 --Activando los tiempos de ejecucion 
 SET STATISTICS TIME ON 
 SET STATISTICS IO ON
 
---         REALIZADA
+--         ARREGLAR (Ponerlo en forma de tiempo-DATEPART, ano y la columna)
 -- 1 pacientes con mas servicios han solicitado (MODIFICAR CONSULTA PARA HACERLO MEDIANTE EL TIEMPO COMO UN GRAFICO DE LINEAS DE TIEMPO) 
-SELECT pa.nombre, pa.apellido, ci.especialidad,
-COUNT(ci.idCita) citasRealizadas,
-DENSE_RANK() OVER(PARTITION BY ci.especialidad ORDER BY COUNT(ci.idCita)DESC) rankingPacienteServicios
+SELECT DATEPART(YEAR, ci.fecha) AS anio,pa.nombre,ci.especialidad,
+COUNT(*) AS citasRealizadas,
+DENSE_RANK() OVER(PARTITION BY DATEPART(YEAR, ci.fecha) ORDER BY COUNT(*) DESC) AS rankingPacienteServicios
 FROM Clinica.Paciente AS pa
 JOIN Clinica.Cita AS ci ON pa.idPaciente = ci.idPaciente
-WHERE ci.fecha BETWEEN '2024' AND '2030'
-GROUP BY pa.nombre, pa.apellido, ci.especialidad
+GROUP BY DATEPART(YEAR, ci.fecha),pa.nombre,ci.especialidad
+
 
 SET STATISTICS TIME OFF 
 SET STATISTICS IO OFF
@@ -27,7 +29,7 @@ ON Clinica.Cita (especialidad, idCita, idPaciente);
 SET STATISTICS TIME ON 
 SET STATISTICS IO ON
 
---         REALIZADA
+--         Arreglar
 -- 2 medicos que mas servicios han brindado (MODIFICAR CONSULTA PARA HACERLO MEDIANTE EL TIEMPO COMO UN GRAFICO DE LINEAS DE TIEMPO)
 SELECT DATEPART(YEAR, ci.fecha) AS anio, 
 COUNT(*) AS ConteoTratamientosMedico, 
