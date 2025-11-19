@@ -1,0 +1,451 @@
+idInstrumento,categoria,nombre
+1,Laboratorio,Pinzas hemostáticas
+2,Diagnóstico,Pinzas hemostáticas
+3,Imagenología,Estetoscopio
+4,Imagenología,Pinzas hemostáticas
+5,Diagnóstico,Tensiómetro
+6,Diagnóstico,Estetoscopio
+7,Laboratorio,Pinzas hemostáticas
+8,Quirúrgico,Otoscopio
+9,Quirúrgico,Pinzas hemostáticas
+10,Monitoreo,Otoscopio
+11,Diagnóstico,Pinzas hemostáticas
+12,Diagnóstico,Tensiómetro
+13,Quirúrgico,Estetoscopio
+14,Diagnóstico,Estetoscopio
+15,Laboratorio,Tensiómetro
+16,Imagenología,Estetoscopio
+17,Laboratorio,Estetoscopio
+18,Imagenología,Estetoscopio
+19,Imagenología,Otoscopio
+20,Imagenología,Estetoscopio
+21,Laboratorio,Pinzas hemostáticas
+22,Diagnóstico,Estetoscopio
+23,Quirúrgico,Pinzas hemostáticas
+24,Monitoreo,Estetoscopio
+25,Laboratorio,Estetoscopio
+26,Quirúrgico,Tensiómetro
+27,Imagenología,Estetoscopio
+28,Diagnóstico,Pinzas hemostáticas
+29,Quirúrgico,Estetoscopio
+30,Diagnóstico,Otoscopio
+31,Diagnóstico,Tensiómetro
+32,Imagenología,Estetoscopio
+33,Imagenología,Pinzas hemostáticas
+34,Laboratorio,Estetoscopio
+35,Monitoreo,Pinzas hemostáticas
+36,Laboratorio,Estetoscopio
+37,Imagenología,Termómetro
+38,Laboratorio,Termómetro
+39,Laboratorio,Otoscopio
+40,Quirúrgico,Estetoscopio
+41,Monitoreo,Pinzas hemostáticas
+42,Quirúrgico,Tensiómetro
+43,Laboratorio,Tensiómetro
+44,Diagnóstico,Estetoscopio
+45,Quirúrgico,Tensiómetro
+46,Laboratorio,Otoscopio
+47,Imagenología,Tensiómetro
+48,Monitoreo,Tensiómetro
+49,Monitoreo,Tensiómetro
+50,Quirúrgico,Tensiómetro
+51,Quirúrgico,Estetoscopio
+52,Laboratorio,Estetoscopio
+53,Quirúrgico,Estetoscopio
+54,Imagenología,Tensiómetro
+55,Imagenología,Pinzas hemostáticas
+56,Monitoreo,Pinzas hemostáticas
+57,Imagenología,Estetoscopio
+58,Laboratorio,Estetoscopio
+59,Monitoreo,Estetoscopio
+60,Imagenología,Termómetro
+61,Quirúrgico,Tensiómetro
+62,Imagenología,Otoscopio
+63,Quirúrgico,Termómetro
+64,Monitoreo,Otoscopio
+65,Diagnóstico,Pinzas hemostáticas
+66,Imagenología,Termómetro
+67,Imagenología,Pinzas hemostáticas
+68,Monitoreo,Pinzas hemostáticas
+69,Monitoreo,Estetoscopio
+70,Imagenología,Tensiómetro
+71,Monitoreo,Tensiómetro
+72,Imagenología,Tensiómetro
+73,Monitoreo,Tensiómetro
+74,Quirúrgico,Otoscopio
+75,Quirúrgico,Estetoscopio
+76,Quirúrgico,Termómetro
+77,Imagenología,Pinzas hemostáticas
+78,Diagnóstico,Termómetro
+79,Monitoreo,Pinzas hemostáticas
+80,Imagenología,Otoscopio
+81,Quirúrgico,Tensiómetro
+82,Diagnóstico,Termómetro
+83,Quirúrgico,Tensiómetro
+84,Monitoreo,Estetoscopio
+85,Quirúrgico,Termómetro
+86,Quirúrgico,Estetoscopio
+87,Diagnóstico,Pinzas hemostáticas
+88,Diagnóstico,Estetoscopio
+89,Laboratorio,Estetoscopio
+90,Imagenología,Termómetro
+91,Monitoreo,Otoscopio
+92,Imagenología,Termómetro
+93,Diagnóstico,Termómetro
+94,Imagenología,Otoscopio
+95,Quirúrgico,Estetoscopio
+96,Quirúrgico,Tensiómetro
+97,Quirúrgico,Termómetro
+98,Imagenología,Estetoscopio
+99,Monitoreo,Estetoscopio
+100,Laboratorio,Otoscopio
+101,Laboratorio,Pinzas hemostáticas
+102,Monitoreo,Tensiómetro
+103,Quirúrgico,Otoscopio
+104,Quirúrgico,Tensiómetro
+105,Monitoreo,Otoscopio
+106,Diagnóstico,Tensiómetro
+107,Quirúrgico,Tensiómetro
+108,Monitoreo,Pinzas hemostáticas
+109,Laboratorio,Estetoscopio
+110,Quirúrgico,Otoscopio
+111,Imagenología,Otoscopio
+112,Laboratorio,Pinzas hemostáticas
+113,Monitoreo,Tensiómetro
+114,Diagnóstico,Tensiómetro
+115,Monitoreo,Estetoscopio
+116,Laboratorio,Tensiómetro
+117,Imagenología,Tensiómetro
+118,Diagnóstico,Estetoscopio
+119,Laboratorio,Otoscopio
+120,Diagnóstico,Termómetro
+121,Laboratorio,Otoscopio
+122,Imagenología,Estetoscopio
+123,Diagnóstico,Estetoscopio
+124,Monitoreo,Otoscopio
+125,Laboratorio,Tensiómetro
+126,Laboratorio,Pinzas hemostáticas
+127,Diagnóstico,Estetoscopio
+128,Quirúrgico,Pinzas hemostáticas
+129,Laboratorio,Estetoscopio
+130,Diagnóstico,Otoscopio
+131,Imagenología,Pinzas hemostáticas
+132,Laboratorio,Termómetro
+133,Monitoreo,Estetoscopio
+134,Imagenología,Termómetro
+135,Imagenología,Tensiómetro
+136,Laboratorio,Pinzas hemostáticas
+137,Monitoreo,Otoscopio
+138,Laboratorio,Termómetro
+139,Imagenología,Otoscopio
+140,Imagenología,Tensiómetro
+141,Diagnóstico,Estetoscopio
+142,Diagnóstico,Otoscopio
+143,Quirúrgico,Termómetro
+144,Imagenología,Termómetro
+145,Imagenología,Termómetro
+146,Imagenología,Otoscopio
+147,Monitoreo,Pinzas hemostáticas
+148,Diagnóstico,Tensiómetro
+149,Imagenología,Pinzas hemostáticas
+150,Diagnóstico,Estetoscopio
+151,Quirúrgico,Estetoscopio
+152,Diagnóstico,Termómetro
+153,Monitoreo,Tensiómetro
+154,Imagenología,Termómetro
+155,Quirúrgico,Otoscopio
+156,Laboratorio,Estetoscopio
+157,Laboratorio,Tensiómetro
+158,Imagenología,Termómetro
+159,Imagenología,Otoscopio
+160,Monitoreo,Tensiómetro
+161,Imagenología,Pinzas hemostáticas
+162,Monitoreo,Otoscopio
+163,Diagnóstico,Tensiómetro
+164,Monitoreo,Termómetro
+165,Laboratorio,Otoscopio
+166,Imagenología,Otoscopio
+167,Monitoreo,Pinzas hemostáticas
+168,Laboratorio,Estetoscopio
+169,Imagenología,Pinzas hemostáticas
+170,Quirúrgico,Termómetro
+171,Diagnóstico,Pinzas hemostáticas
+172,Laboratorio,Estetoscopio
+173,Monitoreo,Estetoscopio
+174,Quirúrgico,Estetoscopio
+175,Imagenología,Estetoscopio
+176,Monitoreo,Termómetro
+177,Quirúrgico,Estetoscopio
+178,Laboratorio,Estetoscopio
+179,Laboratorio,Pinzas hemostáticas
+180,Imagenología,Pinzas hemostáticas
+181,Diagnóstico,Pinzas hemostáticas
+182,Diagnóstico,Estetoscopio
+183,Monitoreo,Otoscopio
+184,Quirúrgico,Pinzas hemostáticas
+185,Diagnóstico,Termómetro
+186,Monitoreo,Estetoscopio
+187,Laboratorio,Estetoscopio
+188,Imagenología,Pinzas hemostáticas
+189,Laboratorio,Tensiómetro
+190,Imagenología,Termómetro
+191,Diagnóstico,Pinzas hemostáticas
+192,Laboratorio,Otoscopio
+193,Quirúrgico,Otoscopio
+194,Quirúrgico,Pinzas hemostáticas
+195,Laboratorio,Estetoscopio
+196,Quirúrgico,Tensiómetro
+197,Laboratorio,Tensiómetro
+198,Imagenología,Estetoscopio
+199,Diagnóstico,Pinzas hemostáticas
+200,Diagnóstico,Tensiómetro
+201,Monitoreo,Otoscopio
+202,Laboratorio,Estetoscopio
+203,Laboratorio,Tensiómetro
+204,Quirúrgico,Termómetro
+205,Quirúrgico,Otoscopio
+206,Laboratorio,Termómetro
+207,Quirúrgico,Estetoscopio
+208,Quirúrgico,Termómetro
+209,Imagenología,Tensiómetro
+210,Diagnóstico,Tensiómetro
+211,Laboratorio,Termómetro
+212,Laboratorio,Estetoscopio
+213,Quirúrgico,Termómetro
+214,Imagenología,Termómetro
+215,Monitoreo,Pinzas hemostáticas
+216,Monitoreo,Tensiómetro
+217,Diagnóstico,Tensiómetro
+218,Diagnóstico,Tensiómetro
+219,Laboratorio,Estetoscopio
+220,Laboratorio,Tensiómetro
+221,Laboratorio,Pinzas hemostáticas
+222,Quirúrgico,Pinzas hemostáticas
+223,Quirúrgico,Termómetro
+224,Imagenología,Pinzas hemostáticas
+225,Monitoreo,Estetoscopio
+226,Imagenología,Tensiómetro
+227,Imagenología,Termómetro
+228,Quirúrgico,Otoscopio
+229,Imagenología,Otoscopio
+230,Imagenología,Termómetro
+231,Imagenología,Estetoscopio
+232,Imagenología,Estetoscopio
+233,Monitoreo,Tensiómetro
+234,Imagenología,Tensiómetro
+235,Monitoreo,Tensiómetro
+236,Monitoreo,Pinzas hemostáticas
+237,Quirúrgico,Estetoscopio
+238,Imagenología,Pinzas hemostáticas
+239,Quirúrgico,Estetoscopio
+240,Quirúrgico,Otoscopio
+241,Imagenología,Pinzas hemostáticas
+242,Laboratorio,Tensiómetro
+243,Laboratorio,Estetoscopio
+244,Imagenología,Otoscopio
+245,Monitoreo,Otoscopio
+246,Imagenología,Tensiómetro
+247,Monitoreo,Otoscopio
+248,Imagenología,Tensiómetro
+249,Monitoreo,Otoscopio
+250,Monitoreo,Termómetro
+251,Laboratorio,Pinzas hemostáticas
+252,Monitoreo,Pinzas hemostáticas
+253,Monitoreo,Pinzas hemostáticas
+254,Diagnóstico,Pinzas hemostáticas
+255,Imagenología,Termómetro
+256,Quirúrgico,Termómetro
+257,Imagenología,Otoscopio
+258,Quirúrgico,Tensiómetro
+259,Quirúrgico,Termómetro
+260,Laboratorio,Tensiómetro
+261,Monitoreo,Pinzas hemostáticas
+262,Diagnóstico,Estetoscopio
+263,Imagenología,Pinzas hemostáticas
+264,Laboratorio,Termómetro
+265,Quirúrgico,Termómetro
+266,Diagnóstico,Tensiómetro
+267,Monitoreo,Estetoscopio
+268,Diagnóstico,Termómetro
+269,Monitoreo,Estetoscopio
+270,Diagnóstico,Pinzas hemostáticas
+271,Diagnóstico,Estetoscopio
+272,Monitoreo,Pinzas hemostáticas
+273,Monitoreo,Termómetro
+274,Laboratorio,Otoscopio
+275,Diagnóstico,Tensiómetro
+276,Laboratorio,Otoscopio
+277,Imagenología,Estetoscopio
+278,Quirúrgico,Tensiómetro
+279,Diagnóstico,Tensiómetro
+280,Monitoreo,Tensiómetro
+281,Quirúrgico,Termómetro
+282,Imagenología,Otoscopio
+283,Laboratorio,Pinzas hemostáticas
+284,Diagnóstico,Estetoscopio
+285,Imagenología,Otoscopio
+286,Monitoreo,Tensiómetro
+287,Diagnóstico,Otoscopio
+288,Diagnóstico,Otoscopio
+289,Monitoreo,Tensiómetro
+290,Laboratorio,Tensiómetro
+291,Quirúrgico,Termómetro
+292,Monitoreo,Termómetro
+293,Monitoreo,Otoscopio
+294,Diagnóstico,Tensiómetro
+295,Monitoreo,Termómetro
+296,Diagnóstico,Estetoscopio
+297,Quirúrgico,Termómetro
+298,Laboratorio,Tensiómetro
+299,Quirúrgico,Estetoscopio
+300,Diagnóstico,Termómetro
+301,Imagenología,Termómetro
+302,Diagnóstico,Otoscopio
+303,Diagnóstico,Otoscopio
+304,Imagenología,Estetoscopio
+305,Quirúrgico,Estetoscopio
+306,Monitoreo,Estetoscopio
+307,Quirúrgico,Termómetro
+308,Monitoreo,Estetoscopio
+309,Diagnóstico,Estetoscopio
+310,Imagenología,Estetoscopio
+311,Laboratorio,Pinzas hemostáticas
+312,Laboratorio,Otoscopio
+313,Diagnóstico,Tensiómetro
+314,Imagenología,Tensiómetro
+315,Quirúrgico,Estetoscopio
+316,Laboratorio,Pinzas hemostáticas
+317,Quirúrgico,Otoscopio
+318,Diagnóstico,Pinzas hemostáticas
+319,Monitoreo,Pinzas hemostáticas
+320,Quirúrgico,Pinzas hemostáticas
+321,Monitoreo,Termómetro
+322,Laboratorio,Estetoscopio
+323,Imagenología,Estetoscopio
+324,Monitoreo,Termómetro
+325,Imagenología,Tensiómetro
+326,Diagnóstico,Otoscopio
+327,Quirúrgico,Tensiómetro
+328,Imagenología,Estetoscopio
+329,Quirúrgico,Otoscopio
+330,Quirúrgico,Otoscopio
+331,Monitoreo,Pinzas hemostáticas
+332,Diagnóstico,Estetoscopio
+333,Diagnóstico,Otoscopio
+334,Imagenología,Termómetro
+335,Laboratorio,Tensiómetro
+336,Imagenología,Otoscopio
+337,Laboratorio,Estetoscopio
+338,Diagnóstico,Termómetro
+339,Quirúrgico,Pinzas hemostáticas
+340,Imagenología,Otoscopio
+341,Laboratorio,Estetoscopio
+342,Laboratorio,Estetoscopio
+343,Laboratorio,Tensiómetro
+344,Diagnóstico,Otoscopio
+345,Imagenología,Otoscopio
+346,Quirúrgico,Termómetro
+347,Imagenología,Tensiómetro
+348,Monitoreo,Termómetro
+349,Laboratorio,Termómetro
+350,Diagnóstico,Otoscopio
+351,Diagnóstico,Termómetro
+352,Diagnóstico,Estetoscopio
+353,Monitoreo,Termómetro
+354,Laboratorio,Otoscopio
+355,Laboratorio,Pinzas hemostáticas
+356,Laboratorio,Otoscopio
+357,Imagenología,Termómetro
+358,Quirúrgico,Otoscopio
+359,Quirúrgico,Pinzas hemostáticas
+360,Quirúrgico,Pinzas hemostáticas
+361,Monitoreo,Tensiómetro
+362,Monitoreo,Otoscopio
+363,Imagenología,Pinzas hemostáticas
+364,Monitoreo,Otoscopio
+365,Diagnóstico,Pinzas hemostáticas
+366,Diagnóstico,Estetoscopio
+367,Imagenología,Pinzas hemostáticas
+368,Laboratorio,Pinzas hemostáticas
+369,Diagnóstico,Pinzas hemostáticas
+370,Monitoreo,Termómetro
+371,Diagnóstico,Estetoscopio
+372,Laboratorio,Otoscopio
+373,Diagnóstico,Termómetro
+374,Quirúrgico,Otoscopio
+375,Monitoreo,Otoscopio
+376,Quirúrgico,Otoscopio
+377,Quirúrgico,Termómetro
+378,Quirúrgico,Estetoscopio
+379,Diagnóstico,Termómetro
+380,Laboratorio,Otoscopio
+381,Imagenología,Tensiómetro
+382,Quirúrgico,Termómetro
+383,Laboratorio,Termómetro
+384,Monitoreo,Pinzas hemostáticas
+385,Imagenología,Otoscopio
+386,Quirúrgico,Tensiómetro
+387,Quirúrgico,Otoscopio
+388,Monitoreo,Termómetro
+389,Monitoreo,Estetoscopio
+390,Monitoreo,Estetoscopio
+391,Quirúrgico,Tensiómetro
+392,Quirúrgico,Tensiómetro
+393,Laboratorio,Termómetro
+394,Monitoreo,Estetoscopio
+395,Diagnóstico,Pinzas hemostáticas
+396,Imagenología,Pinzas hemostáticas
+397,Diagnóstico,Tensiómetro
+398,Quirúrgico,Tensiómetro
+399,Monitoreo,Otoscopio
+400,Laboratorio,Termómetro
+401,Monitoreo,Tensiómetro
+402,Laboratorio,Tensiómetro
+403,Laboratorio,Otoscopio
+404,Imagenología,Pinzas hemostáticas
+405,Quirúrgico,Tensiómetro
+406,Diagnóstico,Estetoscopio
+407,Monitoreo,Pinzas hemostáticas
+408,Diagnóstico,Pinzas hemostáticas
+409,Quirúrgico,Pinzas hemostáticas
+410,Diagnóstico,Otoscopio
+411,Monitoreo,Pinzas hemostáticas
+412,Imagenología,Pinzas hemostáticas
+413,Diagnóstico,Tensiómetro
+414,Diagnóstico,Tensiómetro
+415,Laboratorio,Otoscopio
+416,Quirúrgico,Estetoscopio
+417,Laboratorio,Otoscopio
+418,Monitoreo,Termómetro
+419,Monitoreo,Termómetro
+420,Quirúrgico,Estetoscopio
+421,Laboratorio,Estetoscopio
+422,Laboratorio,Termómetro
+423,Monitoreo,Termómetro
+424,Laboratorio,Otoscopio
+425,Quirúrgico,Termómetro
+426,Quirúrgico,Termómetro
+427,Quirúrgico,Otoscopio
+428,Imagenología,Termómetro
+429,Diagnóstico,Estetoscopio
+430,Monitoreo,Otoscopio
+431,Imagenología,Otoscopio
+432,Quirúrgico,Tensiómetro
+433,Imagenología,Tensiómetro
+434,Diagnóstico,Pinzas hemostáticas
+435,Quirúrgico,Tensiómetro
+436,Laboratorio,Otoscopio
+437,Imagenología,Tensiómetro
+438,Laboratorio,Termómetro
+439,Diagnóstico,Otoscopio
+440,Laboratorio,Tensiómetro
+441,Laboratorio,Tensiómetro
+442,Monitoreo,Termómetro
+443,Diagnóstico,Tensiómetro
+444,Laboratorio,Termómetro
+445,Imagenología,Termómetro
+446,Quirúrgico,Estetoscopio
+447,Laboratorio,Termómetro
+448,Diagnóstico,Pinzas hemostáticas
+449,Monitoreo,Pinzas hemostáticas
+450,Imagenología,Termómetro

@@ -1,0 +1,201 @@
+idDepartamento,area,gerente,cantidadMedico
+1,Pediatría,Lorie O'Noland,47
+2,Dermatología,Madeleine Halson,27
+3,Pediatría,Lacie Kaindl,45
+4,Pediatría,Nicol Fewster,11
+5,Ginecología,Erwin Fosserd,22
+6,Cardiología,Pren Strelitzki,44
+7,Ginecología,Cordie Belliveau,44
+8,Ginecología,Buck Pexton,22
+9,Ginecología,Harland Carpe,40
+10,Dermatología,Gerrie Shuard,21
+11,Cardiología,Krystyna Douris,4
+12,Pediatría,Ortensia Ber,29
+13,Ginecología,Nelson Comello,42
+14,Traumatología,Rafaela Callway,37
+15,Cardiología,Shandy Fellona,24
+16,Cardiología,Vittoria Cosgriff,9
+17,Pediatría,Shanna Gemlbett,12
+18,Pediatría,Gibby Baish,16
+19,Cardiología,Rhody Tovey,26
+20,Dermatología,Alvis De Stoop,42
+21,Cardiología,Adrianna Grishukov,12
+22,Cardiología,Prinz Dugdale,31
+23,Traumatología,Salim Whybray,1
+24,Pediatría,Mitzi Pitone,21
+25,Medicina General,Corrianne Ransbury,29
+26,Pediatría,Candie Daelman,38
+27,Traumatología,Maitilde Iglesias,49
+28,Medicina General,Torie Scruby,4
+29,Pediatría,Kathye Bubbings,31
+30,Pediatría,Alexa Mountcastle,17
+31,Dermatología,Catharina Ree,45
+32,Traumatología,Doralia Rosling,48
+33,Ginecología,Cherianne Heineken,21
+34,Dermatología,Shelton Bullimore,23
+35,Cardiología,Guss Kneebone,43
+36,Traumatología,Felizio Sparry,48
+37,Dermatología,Gradey Weatherburn,34
+38,Dermatología,Isacco Tunder,25
+39,Dermatología,Imogen Gawthorpe,45
+40,Cardiología,Jan Grewes,15
+41,Pediatría,Seamus Monument,33
+42,Traumatología,Rodrigo Townby,35
+43,Traumatología,Alexandrina Bendell,23
+44,Dermatología,Dyna Osbiston,50
+45,Medicina General,Milli Leeburne,38
+46,Dermatología,Tanya By,2
+47,Ginecología,Stanislaw Zienkiewicz,47
+48,Pediatría,Francesco Bradane,9
+49,Ginecología,Shaine Wyldbore,19
+50,Dermatología,Farly Filipponi,37
+51,Dermatología,Case Skain,15
+52,Dermatología,Tammy Allender,41
+53,Pediatría,Janot Shilstone,1
+54,Traumatología,Tuckie Uvedale,10
+55,Pediatría,Gaelan Rawle,3
+56,Cardiología,Coleman Scholard,35
+57,Ginecología,Giffie Conlon,27
+58,Medicina General,Jenica Bluck,21
+59,Ginecología,Deloria Kose,40
+60,Cardiología,Felix Ferrarini,5
+61,Dermatología,Christabella Oleshunin,42
+62,Pediatría,Hoebart Ruoss,30
+63,Pediatría,Hobart Campkin,23
+64,Medicina General,Koo Pindred,2
+65,Traumatología,Mateo Brabant,11
+66,Cardiología,Cordey Manhare,29
+67,Medicina General,Mayne Riccioppo,14
+68,Ginecología,Ardeen Beasley,8
+69,Medicina General,Winnie Livingstone,14
+70,Ginecología,Heddie Innott,20
+71,Dermatología,Jammie Corter,13
+72,Traumatología,Marlon Greystoke,27
+73,Medicina General,Konstantin Cromley,41
+74,Traumatología,Archy Coogan,40
+75,Traumatología,Shel Demaine,7
+76,Pediatría,Allyn Mc Ilory,6
+77,Cardiología,Morty Henstone,21
+78,Pediatría,Wilhelmina Colledge,29
+79,Ginecología,Emalia Duny,13
+80,Dermatología,Milicent Korlat,11
+81,Dermatología,Tracie Killgus,32
+82,Traumatología,Tarrah Kelleher,37
+83,Traumatología,Abbott McMychem,12
+84,Medicina General,Kaylil Swansbury,4
+85,Pediatría,Lawry Reardon,7
+86,Cardiología,Donnajean McInility,45
+87,Pediatría,Selie Seabrook,32
+88,Traumatología,Codee Roja,47
+89,Dermatología,Gregorio Cattermull,26
+90,Dermatología,Neala Kimber,6
+91,Cardiología,Riobard Mossop,5
+92,Dermatología,Christophorus Noke,7
+93,Cardiología,Fidelio Lineham,19
+94,Dermatología,Skipton Coners,4
+95,Cardiología,Kalli Yellep,42
+96,Ginecología,Lib Tyne,6
+97,Dermatología,Philipa Seckington,15
+98,Pediatría,Goran Andriss,22
+99,Pediatría,Cornie Varfalameev,21
+100,Traumatología,Daryl Digger,17
+101,Cardiología,Barbie Hennemann,30
+102,Pediatría,Consolata Brusin,37
+103,Dermatología,Deane Rickhuss,40
+104,Ginecología,Ford Malinowski,46
+105,Medicina General,Lorette Silbert,26
+106,Traumatología,Jaime Szwandt,50
+107,Traumatología,Sanson Avory,15
+108,Ginecología,Sayres Iggalden,6
+109,Ginecología,Salvador Capozzi,36
+110,Pediatría,Nels Lawlance,41
+111,Cardiología,Gwenni De Fraine,23
+112,Traumatología,Skyler Hutchin,32
+113,Traumatología,Viv Iston,41
+114,Dermatología,Gerhard Sibbald,30
+115,Medicina General,Henrik Vamplers,29
+116,Ginecología,Gregor Borchardt,29
+117,Pediatría,Marian Tebbs,31
+118,Traumatología,Lindy Radbourne,2
+119,Pediatría,Chaddie Kumaar,34
+120,Medicina General,Elie Hallybone,25
+121,Traumatología,Brandyn Vlasin,44
+122,Ginecología,Jan Birk,39
+123,Ginecología,Mia Cafferty,6
+124,Traumatología,Aurie Arens,42
+125,Dermatología,Deeann Rapinett,19
+126,Traumatología,Timoteo Mobius,48
+127,Ginecología,Odie Callister,24
+128,Cardiología,Bartholemy Mulhall,21
+129,Dermatología,Baird Radband,18
+130,Dermatología,Akim Rihanek,46
+131,Pediatría,Nealson Kerss,31
+132,Ginecología,Arabella Plevin,20
+133,Pediatría,Christoph Itzhak,42
+134,Pediatría,Law Brownhall,8
+135,Cardiología,Vaughan Annandale,2
+136,Traumatología,Rani Haldon,48
+137,Medicina General,Patrizius Gyer,49
+138,Pediatría,Willdon Featherstonhaugh,23
+139,Pediatría,Mord Twitching,23
+140,Ginecología,Kristos Dovidaitis,29
+141,Medicina General,Andriette Alloisi,27
+142,Dermatología,Josepha Hutable,28
+143,Medicina General,Gilli Kermon,18
+144,Pediatría,Nicolai McAlpine,22
+145,Ginecología,Enid Minear,27
+146,Traumatología,Robinett Blyth,7
+147,Medicina General,Ellette Cobson,32
+148,Pediatría,Blanch Gillani,40
+149,Pediatría,Susie Evershed,43
+150,Traumatología,Granville Ilieve,11
+151,Medicina General,Sawyer Elsay,19
+152,Traumatología,Arabele Wadly,25
+153,Medicina General,Blythe Bauduin,32
+154,Traumatología,Dom Goreisr,22
+155,Medicina General,Albina Whistan,47
+156,Traumatología,Audi Petronis,7
+157,Medicina General,Avis Ervin,39
+158,Medicina General,Paulina Tripon,36
+159,Cardiología,Monroe Castillo,15
+160,Dermatología,Lawton Jellybrand,25
+161,Traumatología,Marie Ebbitt,1
+162,Medicina General,Jena Vasyutichev,5
+163,Medicina General,Meade Backhouse,14
+164,Traumatología,Alvera Gallyhaock,7
+165,Pediatría,Yolanda Peirce,4
+166,Dermatología,Mechelle Maffezzoli,44
+167,Dermatología,Russ Walworth,14
+168,Medicina General,Persis La Rosa,32
+169,Cardiología,Naomi Del Checolo,36
+170,Dermatología,Audre Clemmen,45
+171,Cardiología,Zebulen Keele,8
+172,Medicina General,Otho Atkyns,39
+173,Pediatría,Edan Panons,14
+174,Traumatología,Paolina Arnold,10
+175,Pediatría,Gary Jills,25
+176,Ginecología,Sisely Garrit,5
+177,Ginecología,Brigg Gladwish,47
+178,Pediatría,Mikkel Shorthouse,20
+179,Ginecología,Row Kivelle,11
+180,Cardiología,Upton Vanichkov,44
+181,Dermatología,Dorothy Pickin,49
+182,Ginecología,Ayn Wakeford,28
+183,Ginecología,Hamnet Bonnick,33
+184,Cardiología,Brittany Roache,44
+185,Medicina General,Angeline Emsden,22
+186,Dermatología,Heida Fendt,29
+187,Pediatría,Cleveland Mattiato,39
+188,Traumatología,Jeffry Wadge,7
+189,Ginecología,Elton Gyngyll,26
+190,Pediatría,Odelle Wilderspoon,40
+191,Dermatología,Darleen Cartmael,10
+192,Medicina General,Verile Celand,20
+193,Ginecología,Jonathon Hadingham,18
+194,Ginecología,Dwight Brick,19
+195,Dermatología,Marcie Ausiello,23
+196,Traumatología,Gwyneth Tammadge,10
+197,Ginecología,Hoyt Dunrige,8
+198,Ginecología,Sheffy Marrow,44
+199,Cardiología,Stafford Woodington,49
+200,Ginecología,Ida Matherson,4

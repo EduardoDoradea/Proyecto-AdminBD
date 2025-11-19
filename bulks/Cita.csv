@@ -1,0 +1,1001 @@
+idCita,motivo,estado,fecha,especialidad,duracion,idMedico,idPaciente
+1,Resultados de laboratorio,Cancelada,5/26/2025,Ginecología,135,11,140
+2,Consulta de seguimiento,Confirmada,10/6/2025,Medicina General,69,20,331
+3,Dolor de cabeza persistente,Cancelada,8/14/2026,Cardiología,20,106,499
+4,Consulta de seguimiento,Confirmada,6/24/2026,Traumatología,22,60,324
+5,Revisión anual y chequeo general,Confirmada,5/19/2024,Traumatología,12,132,115
+6,Revisión anual y chequeo general,Reprogramada,4/4/2025,Ginecología,54,180,125
+7,Control de presión arterial,Cancelada,5/10/2025,Pediatría,161,91,138
+8,Control de presión arterial,Cancelada,11/11/2025,Dermatología,76,52,321
+9,Revisión anual y chequeo general,Confirmada,5/29/2026,Cardiología,101,30,340
+10,Revisión anual y chequeo general,Confirmada,11/21/2024,Traumatología,31,118,291
+11,Revisión anual y chequeo general,Reprogramada,7/31/2024,Ginecología,9,193,67
+12,Control de presión arterial,Confirmada,3/19/2026,Cardiología,149,26,507
+13,Dolor de cabeza persistente,Pendiente,9/14/2026,Ginecología,44,101,124
+14,Consulta de seguimiento,Confirmada,6/29/2026,Ginecología,15,32,207
+15,Consulta de seguimiento,Pendiente,5/29/2026,Medicina General,138,139,511
+16,Resultados de laboratorio,Reprogramada,3/10/2025,Traumatología,8,172,87
+17,Consulta de seguimiento,Cancelada,6/20/2024,Traumatología,161,36,278
+18,Resultados de laboratorio,Pendiente,9/28/2025,Ginecología,97,182,595
+19,Resultados de laboratorio,Confirmada,11/22/2024,Pediatría,51,186,337
+20,Revisión anual y chequeo general,Reprogramada,11/13/2026,Pediatría,101,6,568
+21,Resultados de laboratorio,Cancelada,8/8/2025,Medicina General,71,136,393
+22,Dolor de cabeza persistente,Cancelada,11/17/2024,Ginecología,75,14,301
+23,Revisión anual y chequeo general,Cancelada,6/7/2025,Pediatría,72,81,327
+24,Control de presión arterial,Pendiente,12/15/2024,Pediatría,138,110,111
+25,Dolor de cabeza persistente,Pendiente,7/10/2026,Medicina General,75,33,575
+26,Revisión anual y chequeo general,Pendiente,6/8/2026,Medicina General,114,64,198
+27,Revisión anual y chequeo general,Pendiente,7/8/2024,Dermatología,73,167,307
+28,Control de presión arterial,Cancelada,4/24/2024,Ginecología,145,157,475
+29,Dolor de cabeza persistente,Reprogramada,9/21/2026,Cardiología,71,197,315
+30,Dolor de cabeza persistente,Reprogramada,6/6/2026,Traumatología,16,51,583
+31,Resultados de laboratorio,Pendiente,1/31/2024,Dermatología,65,52,289
+32,Control de presión arterial,Reprogramada,6/20/2024,Pediatría,28,103,175
+33,Consulta de seguimiento,Cancelada,9/24/2025,Ginecología,90,9,469
+34,Control de presión arterial,Pendiente,2/20/2026,Ginecología,107,92,293
+35,Consulta de seguimiento,Confirmada,11/5/2024,Pediatría,44,181,69
+36,Control de presión arterial,Confirmada,12/29/2026,Dermatología,77,56,83
+37,Resultados de laboratorio,Confirmada,9/3/2026,Dermatología,90,4,96
+38,Resultados de laboratorio,Confirmada,7/29/2026,Cardiología,57,190,189
+39,Resultados de laboratorio,Pendiente,4/21/2025,Dermatología,33,96,489
+40,Control de presión arterial,Reprogramada,1/30/2026,Pediatría,88,7,287
+41,Dolor de cabeza persistente,Pendiente,11/24/2025,Traumatología,80,123,383
+42,Consulta de seguimiento,Pendiente,2/15/2025,Pediatría,103,44,23
+43,Revisión anual y chequeo general,Cancelada,5/18/2025,Pediatría,180,19,344
+44,Resultados de laboratorio,Cancelada,1/12/2026,Medicina General,83,18,196
+45,Consulta de seguimiento,Reprogramada,5/5/2026,Cardiología,7,77,459
+46,Control de presión arterial,Pendiente,7/19/2024,Cardiología,62,75,199
+47,Dolor de cabeza persistente,Confirmada,12/20/2024,Pediatría,66,23,39
+48,Dolor de cabeza persistente,Reprogramada,11/15/2025,Traumatología,160,190,180
+49,Control de presión arterial,Reprogramada,7/17/2024,Dermatología,58,51,56
+50,Revisión anual y chequeo general,Confirmada,4/8/2025,Traumatología,43,4,191
+51,Revisión anual y chequeo general,Cancelada,6/9/2024,Pediatría,72,166,20
+52,Control de presión arterial,Confirmada,4/2/2024,Dermatología,66,91,255
+53,Resultados de laboratorio,Reprogramada,4/27/2026,Cardiología,49,21,531
+54,Resultados de laboratorio,Pendiente,2/18/2024,Traumatología,104,123,494
+55,Resultados de laboratorio,Cancelada,11/14/2025,Dermatología,13,119,367
+56,Resultados de laboratorio,Confirmada,11/5/2025,Traumatología,140,104,278
+57,Control de presión arterial,Cancelada,3/24/2026,Cardiología,158,195,407
+58,Consulta de seguimiento,Cancelada,3/12/2026,Pediatría,113,185,159
+59,Revisión anual y chequeo general,Cancelada,6/26/2026,Cardiología,160,98,246
+60,Resultados de laboratorio,Reprogramada,9/23/2026,Ginecología,101,120,421
+61,Control de presión arterial,Cancelada,2/5/2026,Traumatología,60,29,147
+62,Resultados de laboratorio,Pendiente,2/10/2026,Cardiología,153,142,412
+63,Resultados de laboratorio,Cancelada,4/29/2026,Ginecología,18,164,177
+64,Resultados de laboratorio,Cancelada,1/16/2025,Traumatología,167,8,45
+65,Dolor de cabeza persistente,Pendiente,7/18/2026,Medicina General,158,12,306
+66,Dolor de cabeza persistente,Pendiente,1/22/2024,Ginecología,157,155,316
+67,Consulta de seguimiento,Confirmada,9/10/2024,Ginecología,75,29,547
+68,Consulta de seguimiento,Cancelada,1/6/2025,Dermatología,171,46,202
+69,Dolor de cabeza persistente,Confirmada,4/1/2025,Pediatría,117,91,467
+70,Dolor de cabeza persistente,Confirmada,7/12/2024,Dermatología,56,178,521
+71,Control de presión arterial,Confirmada,1/19/2026,Pediatría,8,56,497
+72,Consulta de seguimiento,Cancelada,11/14/2024,Pediatría,180,52,166
+73,Control de presión arterial,Cancelada,2/2/2026,Medicina General,53,157,87
+74,Control de presión arterial,Pendiente,6/17/2025,Ginecología,27,96,455
+75,Control de presión arterial,Cancelada,10/6/2024,Dermatología,159,175,508
+76,Control de presión arterial,Reprogramada,12/30/2026,Ginecología,22,48,155
+77,Consulta de seguimiento,Reprogramada,4/20/2026,Pediatría,58,74,511
+78,Dolor de cabeza persistente,Pendiente,4/7/2024,Medicina General,132,123,81
+79,Control de presión arterial,Pendiente,2/23/2026,Cardiología,26,46,371
+80,Consulta de seguimiento,Confirmada,12/6/2024,Traumatología,14,52,312
+81,Control de presión arterial,Confirmada,8/20/2024,Dermatología,111,6,204
+82,Consulta de seguimiento,Cancelada,12/12/2026,Traumatología,165,89,48
+83,Consulta de seguimiento,Pendiente,7/21/2025,Traumatología,113,45,44
+84,Revisión anual y chequeo general,Pendiente,8/1/2025,Cardiología,161,66,532
+85,Revisión anual y chequeo general,Confirmada,1/7/2024,Traumatología,124,197,571
+86,Resultados de laboratorio,Cancelada,7/19/2026,Ginecología,50,191,399
+87,Dolor de cabeza persistente,Pendiente,10/22/2025,Pediatría,28,184,488
+88,Revisión anual y chequeo general,Pendiente,6/1/2025,Traumatología,119,196,116
+89,Consulta de seguimiento,Cancelada,12/13/2024,Cardiología,90,170,211
+90,Control de presión arterial,Pendiente,8/6/2025,Pediatría,146,144,419
+91,Resultados de laboratorio,Pendiente,4/5/2025,Ginecología,176,38,432
+92,Revisión anual y chequeo general,Cancelada,10/21/2025,Traumatología,92,150,381
+93,Dolor de cabeza persistente,Cancelada,1/11/2024,Ginecología,164,183,23
+94,Revisión anual y chequeo general,Cancelada,12/3/2026,Ginecología,6,41,270
+95,Revisión anual y chequeo general,Confirmada,9/15/2024,Medicina General,162,152,496
+96,Resultados de laboratorio,Pendiente,9/9/2026,Cardiología,70,184,318
+97,Dolor de cabeza persistente,Confirmada,8/7/2024,Medicina General,69,98,457
+98,Consulta de seguimiento,Reprogramada,12/3/2024,Cardiología,110,2,239
+99,Revisión anual y chequeo general,Cancelada,9/25/2024,Pediatría,136,132,321
+100,Dolor de cabeza persistente,Pendiente,4/10/2025,Medicina General,110,110,595
+101,Consulta de seguimiento,Confirmada,7/11/2026,Ginecología,153,80,468
+102,Revisión anual y chequeo general,Pendiente,11/7/2025,Dermatología,68,93,419
+103,Resultados de laboratorio,Pendiente,10/7/2026,Cardiología,52,25,120
+104,Resultados de laboratorio,Cancelada,7/10/2024,Pediatría,27,108,176
+105,Control de presión arterial,Reprogramada,4/17/2024,Pediatría,82,193,498
+106,Dolor de cabeza persistente,Reprogramada,7/12/2025,Pediatría,95,157,426
+107,Resultados de laboratorio,Confirmada,1/11/2025,Dermatología,142,63,302
+108,Dolor de cabeza persistente,Pendiente,7/18/2025,Medicina General,108,140,436
+109,Resultados de laboratorio,Pendiente,3/30/2025,Cardiología,147,5,548
+110,Resultados de laboratorio,Confirmada,8/8/2025,Dermatología,19,75,168
+111,Consulta de seguimiento,Cancelada,6/28/2024,Traumatología,76,40,489
+112,Consulta de seguimiento,Pendiente,1/25/2025,Dermatología,178,40,5
+113,Control de presión arterial,Reprogramada,2/24/2025,Cardiología,170,44,345
+114,Dolor de cabeza persistente,Pendiente,2/18/2026,Traumatología,22,114,391
+115,Control de presión arterial,Confirmada,1/15/2026,Ginecología,137,94,223
+116,Revisión anual y chequeo general,Pendiente,11/10/2025,Dermatología,51,190,565
+117,Dolor de cabeza persistente,Confirmada,3/3/2025,Cardiología,30,139,118
+118,Control de presión arterial,Reprogramada,12/23/2024,Pediatría,31,31,50
+119,Dolor de cabeza persistente,Confirmada,12/18/2024,Ginecología,86,76,383
+120,Dolor de cabeza persistente,Reprogramada,9/12/2026,Medicina General,69,183,335
+121,Control de presión arterial,Pendiente,6/19/2025,Dermatología,42,174,266
+122,Resultados de laboratorio,Reprogramada,4/4/2026,Medicina General,103,179,109
+123,Revisión anual y chequeo general,Cancelada,4/1/2026,Ginecología,164,166,42
+124,Control de presión arterial,Cancelada,2/1/2025,Dermatología,151,158,132
+125,Control de presión arterial,Confirmada,2/24/2026,Dermatología,65,154,389
+126,Control de presión arterial,Confirmada,8/1/2025,Cardiología,86,190,574
+127,Dolor de cabeza persistente,Reprogramada,2/20/2025,Dermatología,81,91,5
+128,Dolor de cabeza persistente,Confirmada,11/13/2025,Dermatología,123,71,372
+129,Resultados de laboratorio,Cancelada,3/28/2025,Ginecología,114,176,591
+130,Revisión anual y chequeo general,Cancelada,9/30/2025,Pediatría,22,93,589
+131,Control de presión arterial,Cancelada,11/11/2026,Pediatría,73,115,177
+132,Consulta de seguimiento,Reprogramada,3/22/2024,Dermatología,44,103,498
+133,Dolor de cabeza persistente,Cancelada,1/13/2026,Pediatría,56,91,566
+134,Revisión anual y chequeo general,Pendiente,7/1/2025,Traumatología,156,51,535
+135,Revisión anual y chequeo general,Cancelada,3/30/2025,Dermatología,165,11,216
+136,Dolor de cabeza persistente,Pendiente,7/5/2024,Cardiología,172,195,305
+137,Consulta de seguimiento,Confirmada,3/11/2024,Dermatología,160,117,349
+138,Dolor de cabeza persistente,Reprogramada,3/7/2025,Cardiología,22,200,279
+139,Revisión anual y chequeo general,Confirmada,10/14/2026,Pediatría,158,171,279
+140,Consulta de seguimiento,Pendiente,3/31/2025,Medicina General,137,61,63
+141,Resultados de laboratorio,Reprogramada,10/14/2024,Dermatología,148,70,318
+142,Consulta de seguimiento,Cancelada,7/15/2026,Pediatría,129,125,176
+143,Dolor de cabeza persistente,Cancelada,2/18/2026,Dermatología,137,77,431
+144,Control de presión arterial,Cancelada,12/18/2024,Ginecología,100,175,278
+145,Control de presión arterial,Confirmada,7/25/2024,Medicina General,153,20,304
+146,Revisión anual y chequeo general,Cancelada,11/11/2026,Pediatría,136,164,157
+147,Revisión anual y chequeo general,Confirmada,12/19/2025,Traumatología,19,183,556
+148,Dolor de cabeza persistente,Confirmada,8/21/2026,Ginecología,32,32,39
+149,Dolor de cabeza persistente,Pendiente,3/20/2024,Medicina General,152,107,303
+150,Revisión anual y chequeo general,Cancelada,3/21/2025,Pediatría,53,173,302
+151,Revisión anual y chequeo general,Reprogramada,8/26/2026,Pediatría,41,194,283
+152,Control de presión arterial,Confirmada,10/6/2025,Ginecología,137,194,259
+153,Resultados de laboratorio,Confirmada,3/5/2024,Ginecología,16,5,490
+154,Revisión anual y chequeo general,Cancelada,2/27/2024,Pediatría,122,45,143
+155,Dolor de cabeza persistente,Confirmada,9/24/2024,Pediatría,144,122,286
+156,Revisión anual y chequeo general,Pendiente,10/4/2026,Dermatología,67,42,524
+157,Revisión anual y chequeo general,Confirmada,6/9/2025,Traumatología,46,162,353
+158,Revisión anual y chequeo general,Pendiente,1/19/2025,Medicina General,56,194,103
+159,Dolor de cabeza persistente,Reprogramada,8/17/2024,Pediatría,120,173,328
+160,Control de presión arterial,Cancelada,3/10/2024,Dermatología,53,73,123
+161,Resultados de laboratorio,Confirmada,6/23/2024,Pediatría,28,193,54
+162,Dolor de cabeza persistente,Pendiente,3/7/2026,Cardiología,125,200,393
+163,Control de presión arterial,Cancelada,9/24/2024,Traumatología,146,184,460
+164,Dolor de cabeza persistente,Pendiente,9/6/2025,Cardiología,83,65,106
+165,Dolor de cabeza persistente,Cancelada,6/13/2026,Dermatología,143,6,577
+166,Control de presión arterial,Cancelada,4/12/2025,Ginecología,36,86,182
+167,Control de presión arterial,Confirmada,11/4/2024,Traumatología,63,172,387
+168,Dolor de cabeza persistente,Cancelada,10/26/2024,Traumatología,165,106,530
+169,Control de presión arterial,Reprogramada,7/17/2026,Medicina General,50,177,507
+170,Consulta de seguimiento,Confirmada,10/28/2025,Traumatología,91,110,463
+171,Consulta de seguimiento,Pendiente,11/2/2025,Cardiología,82,4,157
+172,Control de presión arterial,Cancelada,12/15/2026,Medicina General,146,148,478
+173,Control de presión arterial,Pendiente,5/17/2026,Pediatría,150,77,95
+174,Control de presión arterial,Reprogramada,8/16/2026,Medicina General,126,176,315
+175,Control de presión arterial,Cancelada,3/5/2026,Medicina General,69,101,394
+176,Control de presión arterial,Reprogramada,3/1/2025,Traumatología,62,84,235
+177,Consulta de seguimiento,Reprogramada,3/28/2025,Ginecología,104,2,88
+178,Control de presión arterial,Cancelada,6/20/2026,Medicina General,105,144,253
+179,Consulta de seguimiento,Reprogramada,2/6/2026,Pediatría,149,159,323
+180,Consulta de seguimiento,Cancelada,5/15/2024,Traumatología,117,15,117
+181,Resultados de laboratorio,Confirmada,5/13/2026,Ginecología,35,114,235
+182,Consulta de seguimiento,Reprogramada,4/12/2025,Dermatología,158,63,115
+183,Consulta de seguimiento,Reprogramada,4/11/2024,Ginecología,131,175,341
+184,Dolor de cabeza persistente,Confirmada,4/21/2024,Pediatría,170,94,497
+185,Revisión anual y chequeo general,Reprogramada,6/5/2026,Medicina General,51,12,565
+186,Dolor de cabeza persistente,Cancelada,6/3/2024,Ginecología,105,97,141
+187,Resultados de laboratorio,Pendiente,7/17/2025,Ginecología,136,50,405
+188,Control de presión arterial,Reprogramada,12/8/2026,Dermatología,36,149,291
+189,Revisión anual y chequeo general,Confirmada,5/9/2026,Cardiología,106,194,294
+190,Revisión anual y chequeo general,Cancelada,5/2/2025,Ginecología,17,148,593
+191,Resultados de laboratorio,Cancelada,3/2/2025,Dermatología,133,174,272
+192,Consulta de seguimiento,Confirmada,3/10/2025,Pediatría,151,172,95
+193,Dolor de cabeza persistente,Cancelada,2/2/2024,Traumatología,158,182,245
+194,Control de presión arterial,Confirmada,8/3/2026,Medicina General,50,147,533
+195,Revisión anual y chequeo general,Pendiente,4/17/2026,Cardiología,168,52,388
+196,Revisión anual y chequeo general,Reprogramada,8/30/2026,Cardiología,159,59,263
+197,Revisión anual y chequeo general,Pendiente,10/8/2026,Medicina General,59,83,25
+198,Revisión anual y chequeo general,Reprogramada,5/1/2024,Medicina General,61,162,455
+199,Dolor de cabeza persistente,Reprogramada,4/22/2026,Dermatología,78,156,401
+200,Resultados de laboratorio,Confirmada,3/7/2024,Ginecología,159,162,514
+201,Resultados de laboratorio,Confirmada,4/20/2024,Pediatría,81,114,310
+202,Control de presión arterial,Reprogramada,2/6/2025,Pediatría,37,54,114
+203,Control de presión arterial,Cancelada,3/17/2025,Ginecología,109,122,85
+204,Control de presión arterial,Reprogramada,5/7/2024,Cardiología,97,41,596
+205,Control de presión arterial,Cancelada,7/13/2026,Medicina General,85,98,417
+206,Consulta de seguimiento,Cancelada,1/19/2025,Traumatología,54,195,278
+207,Consulta de seguimiento,Confirmada,9/22/2026,Ginecología,91,22,488
+208,Revisión anual y chequeo general,Reprogramada,12/20/2026,Cardiología,61,80,381
+209,Resultados de laboratorio,Confirmada,7/4/2024,Medicina General,168,82,30
+210,Revisión anual y chequeo general,Pendiente,7/5/2024,Cardiología,137,59,146
+211,Revisión anual y chequeo general,Confirmada,1/23/2024,Traumatología,31,200,36
+212,Dolor de cabeza persistente,Cancelada,3/13/2024,Dermatología,177,194,35
+213,Resultados de laboratorio,Cancelada,11/16/2024,Medicina General,75,93,239
+214,Revisión anual y chequeo general,Cancelada,10/17/2025,Cardiología,152,140,298
+215,Revisión anual y chequeo general,Reprogramada,7/10/2026,Dermatología,113,31,111
+216,Revisión anual y chequeo general,Reprogramada,11/17/2026,Cardiología,103,200,65
+217,Revisión anual y chequeo general,Reprogramada,2/1/2026,Traumatología,141,141,180
+218,Dolor de cabeza persistente,Pendiente,8/18/2026,Traumatología,25,172,495
+219,Consulta de seguimiento,Reprogramada,12/29/2024,Ginecología,95,155,224
+220,Resultados de laboratorio,Reprogramada,10/30/2025,Medicina General,120,85,104
+221,Consulta de seguimiento,Pendiente,10/19/2024,Ginecología,121,186,495
+222,Dolor de cabeza persistente,Confirmada,2/24/2026,Cardiología,143,69,43
+223,Dolor de cabeza persistente,Confirmada,5/12/2025,Ginecología,7,115,290
+224,Dolor de cabeza persistente,Cancelada,2/10/2025,Ginecología,93,71,220
+225,Dolor de cabeza persistente,Reprogramada,12/15/2025,Ginecología,102,120,566
+226,Consulta de seguimiento,Reprogramada,5/14/2025,Ginecología,123,56,203
+227,Revisión anual y chequeo general,Cancelada,9/5/2026,Cardiología,153,102,21
+228,Dolor de cabeza persistente,Reprogramada,8/18/2026,Dermatología,123,43,414
+229,Control de presión arterial,Reprogramada,1/8/2024,Cardiología,166,149,456
+230,Revisión anual y chequeo general,Cancelada,8/22/2024,Medicina General,148,69,45
+231,Revisión anual y chequeo general,Confirmada,8/19/2025,Ginecología,159,21,337
+232,Dolor de cabeza persistente,Reprogramada,9/3/2025,Cardiología,94,198,363
+233,Resultados de laboratorio,Confirmada,11/19/2025,Traumatología,87,172,171
+234,Resultados de laboratorio,Cancelada,1/6/2026,Dermatología,73,36,490
+235,Control de presión arterial,Pendiente,7/11/2025,Ginecología,160,56,262
+236,Revisión anual y chequeo general,Cancelada,4/2/2024,Ginecología,38,152,380
+237,Revisión anual y chequeo general,Cancelada,11/6/2024,Pediatría,129,198,407
+238,Resultados de laboratorio,Cancelada,2/7/2026,Ginecología,36,18,138
+239,Control de presión arterial,Reprogramada,11/23/2026,Dermatología,85,10,33
+240,Dolor de cabeza persistente,Confirmada,12/1/2024,Dermatología,22,33,444
+241,Resultados de laboratorio,Reprogramada,8/1/2026,Pediatría,9,169,402
+242,Dolor de cabeza persistente,Reprogramada,9/2/2026,Medicina General,12,141,107
+243,Resultados de laboratorio,Cancelada,7/3/2026,Medicina General,170,135,362
+244,Consulta de seguimiento,Confirmada,12/16/2024,Medicina General,17,149,497
+245,Revisión anual y chequeo general,Cancelada,4/8/2024,Cardiología,20,127,189
+246,Resultados de laboratorio,Cancelada,3/16/2024,Dermatología,77,157,23
+247,Resultados de laboratorio,Cancelada,5/27/2026,Pediatría,39,65,94
+248,Resultados de laboratorio,Reprogramada,8/17/2026,Medicina General,133,38,353
+249,Dolor de cabeza persistente,Confirmada,6/25/2025,Ginecología,107,71,460
+250,Resultados de laboratorio,Cancelada,1/10/2026,Pediatría,121,72,405
+251,Dolor de cabeza persistente,Pendiente,2/10/2026,Medicina General,139,91,151
+252,Revisión anual y chequeo general,Reprogramada,10/4/2026,Ginecología,97,24,491
+253,Resultados de laboratorio,Confirmada,7/22/2026,Dermatología,16,142,469
+254,Dolor de cabeza persistente,Cancelada,12/25/2025,Medicina General,82,157,8
+255,Consulta de seguimiento,Pendiente,3/7/2025,Medicina General,67,136,203
+256,Revisión anual y chequeo general,Confirmada,9/21/2026,Cardiología,13,102,331
+257,Resultados de laboratorio,Reprogramada,9/15/2024,Traumatología,110,93,523
+258,Resultados de laboratorio,Pendiente,5/13/2024,Ginecología,174,19,199
+259,Consulta de seguimiento,Reprogramada,7/8/2024,Medicina General,166,177,428
+260,Resultados de laboratorio,Confirmada,6/16/2024,Ginecología,140,109,539
+261,Resultados de laboratorio,Reprogramada,11/22/2026,Pediatría,180,37,504
+262,Resultados de laboratorio,Pendiente,2/9/2025,Pediatría,106,107,434
+263,Control de presión arterial,Confirmada,5/14/2026,Dermatología,118,64,449
+264,Control de presión arterial,Cancelada,3/17/2026,Traumatología,43,163,529
+265,Revisión anual y chequeo general,Confirmada,2/16/2024,Pediatría,148,150,302
+266,Control de presión arterial,Confirmada,1/21/2024,Ginecología,10,94,106
+267,Revisión anual y chequeo general,Confirmada,11/22/2026,Pediatría,157,89,105
+268,Resultados de laboratorio,Reprogramada,4/18/2026,Pediatría,163,191,178
+269,Consulta de seguimiento,Cancelada,12/23/2024,Dermatología,8,60,334
+270,Dolor de cabeza persistente,Reprogramada,8/28/2025,Ginecología,72,66,102
+271,Revisión anual y chequeo general,Reprogramada,2/28/2026,Ginecología,87,12,212
+272,Control de presión arterial,Pendiente,11/2/2025,Ginecología,43,94,301
+273,Consulta de seguimiento,Confirmada,7/18/2026,Medicina General,97,193,399
+274,Consulta de seguimiento,Reprogramada,5/23/2025,Medicina General,180,11,209
+275,Consulta de seguimiento,Cancelada,12/9/2025,Dermatología,16,31,496
+276,Revisión anual y chequeo general,Cancelada,12/14/2025,Medicina General,24,149,22
+277,Dolor de cabeza persistente,Cancelada,3/2/2025,Cardiología,43,80,30
+278,Consulta de seguimiento,Reprogramada,6/14/2026,Cardiología,50,156,597
+279,Resultados de laboratorio,Confirmada,3/26/2026,Traumatología,162,45,433
+280,Revisión anual y chequeo general,Pendiente,8/31/2026,Medicina General,172,168,439
+281,Dolor de cabeza persistente,Cancelada,1/8/2026,Medicina General,53,66,183
+282,Dolor de cabeza persistente,Pendiente,5/3/2024,Traumatología,89,110,181
+283,Resultados de laboratorio,Cancelada,11/13/2026,Dermatología,16,182,175
+284,Consulta de seguimiento,Confirmada,1/19/2024,Dermatología,166,100,484
+285,Resultados de laboratorio,Reprogramada,11/2/2026,Pediatría,106,78,170
+286,Dolor de cabeza persistente,Cancelada,1/29/2025,Traumatología,134,81,25
+287,Dolor de cabeza persistente,Cancelada,10/30/2024,Dermatología,18,32,264
+288,Dolor de cabeza persistente,Pendiente,11/24/2026,Dermatología,81,48,525
+289,Resultados de laboratorio,Confirmada,2/17/2024,Dermatología,166,78,509
+290,Revisión anual y chequeo general,Pendiente,6/16/2025,Medicina General,99,154,264
+291,Control de presión arterial,Cancelada,12/12/2024,Dermatología,73,103,598
+292,Dolor de cabeza persistente,Pendiente,3/9/2025,Cardiología,46,39,122
+293,Control de presión arterial,Pendiente,8/31/2026,Pediatría,11,49,133
+294,Consulta de seguimiento,Reprogramada,7/8/2026,Pediatría,106,28,330
+295,Resultados de laboratorio,Pendiente,11/12/2026,Medicina General,21,137,82
+296,Consulta de seguimiento,Confirmada,12/31/2025,Medicina General,21,1,487
+297,Dolor de cabeza persistente,Reprogramada,11/16/2026,Medicina General,67,72,262
+298,Resultados de laboratorio,Pendiente,5/29/2026,Dermatología,60,140,499
+299,Control de presión arterial,Confirmada,9/17/2026,Dermatología,170,80,420
+300,Revisión anual y chequeo general,Reprogramada,7/25/2024,Dermatología,27,103,547
+301,Consulta de seguimiento,Reprogramada,7/23/2025,Cardiología,32,182,307
+302,Dolor de cabeza persistente,Reprogramada,7/1/2025,Cardiología,131,52,496
+303,Dolor de cabeza persistente,Pendiente,9/7/2024,Ginecología,100,198,439
+304,Consulta de seguimiento,Pendiente,10/28/2026,Dermatología,69,107,454
+305,Control de presión arterial,Confirmada,8/27/2026,Ginecología,179,39,75
+306,Consulta de seguimiento,Confirmada,12/28/2025,Cardiología,88,55,211
+307,Dolor de cabeza persistente,Pendiente,7/30/2026,Medicina General,101,95,1
+308,Resultados de laboratorio,Pendiente,7/25/2025,Pediatría,170,39,418
+309,Resultados de laboratorio,Reprogramada,12/6/2024,Traumatología,93,129,464
+310,Revisión anual y chequeo general,Reprogramada,5/12/2025,Medicina General,97,103,199
+311,Dolor de cabeza persistente,Pendiente,10/12/2024,Ginecología,100,165,337
+312,Revisión anual y chequeo general,Cancelada,5/5/2025,Medicina General,92,23,129
+313,Resultados de laboratorio,Confirmada,3/31/2025,Cardiología,81,169,399
+314,Dolor de cabeza persistente,Cancelada,7/28/2024,Medicina General,154,67,345
+315,Consulta de seguimiento,Confirmada,10/25/2026,Pediatría,63,13,32
+316,Control de presión arterial,Confirmada,4/20/2026,Pediatría,75,94,518
+317,Control de presión arterial,Confirmada,8/31/2024,Cardiología,70,128,420
+318,Revisión anual y chequeo general,Pendiente,5/14/2025,Traumatología,49,151,428
+319,Revisión anual y chequeo general,Confirmada,1/21/2024,Cardiología,149,102,581
+320,Revisión anual y chequeo general,Pendiente,12/30/2026,Traumatología,72,1,110
+321,Resultados de laboratorio,Reprogramada,7/23/2024,Pediatría,88,104,225
+322,Consulta de seguimiento,Cancelada,4/15/2024,Medicina General,44,176,100
+323,Revisión anual y chequeo general,Reprogramada,4/21/2025,Ginecología,102,66,348
+324,Revisión anual y chequeo general,Reprogramada,11/7/2025,Ginecología,128,115,531
+325,Control de presión arterial,Reprogramada,4/4/2025,Dermatología,167,64,130
+326,Control de presión arterial,Reprogramada,3/7/2024,Medicina General,14,30,214
+327,Control de presión arterial,Confirmada,5/28/2025,Traumatología,133,50,581
+328,Revisión anual y chequeo general,Pendiente,3/11/2026,Cardiología,154,198,292
+329,Revisión anual y chequeo general,Confirmada,7/26/2024,Cardiología,59,188,439
+330,Consulta de seguimiento,Reprogramada,12/14/2025,Traumatología,73,131,19
+331,Consulta de seguimiento,Confirmada,9/5/2026,Traumatología,98,77,21
+332,Consulta de seguimiento,Pendiente,5/27/2026,Medicina General,74,71,222
+333,Revisión anual y chequeo general,Pendiente,5/27/2024,Medicina General,68,97,88
+334,Consulta de seguimiento,Reprogramada,7/15/2025,Traumatología,136,47,250
+335,Revisión anual y chequeo general,Pendiente,8/8/2026,Cardiología,108,137,143
+336,Resultados de laboratorio,Confirmada,3/28/2026,Cardiología,86,8,461
+337,Control de presión arterial,Confirmada,5/25/2026,Pediatría,113,146,395
+338,Consulta de seguimiento,Pendiente,4/29/2025,Traumatología,62,54,138
+339,Consulta de seguimiento,Cancelada,11/11/2025,Cardiología,22,67,104
+340,Resultados de laboratorio,Confirmada,8/25/2026,Dermatología,153,71,582
+341,Consulta de seguimiento,Reprogramada,10/13/2026,Medicina General,114,190,578
+342,Resultados de laboratorio,Reprogramada,5/10/2025,Dermatología,139,30,70
+343,Revisión anual y chequeo general,Pendiente,1/25/2024,Ginecología,124,67,483
+344,Resultados de laboratorio,Confirmada,10/1/2024,Pediatría,88,80,478
+345,Dolor de cabeza persistente,Reprogramada,11/28/2026,Medicina General,129,81,261
+346,Dolor de cabeza persistente,Confirmada,7/18/2025,Traumatología,151,33,371
+347,Consulta de seguimiento,Confirmada,8/24/2025,Dermatología,52,4,87
+348,Dolor de cabeza persistente,Pendiente,6/21/2025,Ginecología,65,55,69
+349,Consulta de seguimiento,Reprogramada,2/7/2024,Traumatología,77,124,137
+350,Resultados de laboratorio,Confirmada,11/5/2024,Dermatología,121,165,347
+351,Revisión anual y chequeo general,Pendiente,6/27/2026,Ginecología,9,11,243
+352,Resultados de laboratorio,Confirmada,7/6/2025,Ginecología,12,193,72
+353,Consulta de seguimiento,Reprogramada,1/12/2026,Traumatología,14,183,503
+354,Consulta de seguimiento,Confirmada,2/8/2024,Dermatología,111,106,2
+355,Revisión anual y chequeo general,Pendiente,6/4/2026,Cardiología,150,70,355
+356,Resultados de laboratorio,Reprogramada,5/19/2025,Traumatología,44,29,364
+357,Resultados de laboratorio,Cancelada,2/12/2024,Dermatología,130,188,426
+358,Revisión anual y chequeo general,Reprogramada,10/9/2024,Ginecología,106,194,424
+359,Revisión anual y chequeo general,Confirmada,9/24/2025,Dermatología,98,117,35
+360,Revisión anual y chequeo general,Reprogramada,11/15/2025,Traumatología,109,87,159
+361,Control de presión arterial,Reprogramada,11/5/2025,Ginecología,63,140,214
+362,Dolor de cabeza persistente,Confirmada,5/19/2025,Dermatología,168,74,497
+363,Resultados de laboratorio,Cancelada,7/2/2026,Dermatología,63,176,425
+364,Control de presión arterial,Cancelada,2/12/2024,Pediatría,162,200,593
+365,Revisión anual y chequeo general,Cancelada,8/10/2025,Ginecología,11,187,10
+366,Revisión anual y chequeo general,Pendiente,1/13/2025,Medicina General,134,54,391
+367,Resultados de laboratorio,Confirmada,9/6/2024,Medicina General,155,199,210
+368,Revisión anual y chequeo general,Confirmada,10/25/2026,Cardiología,175,51,93
+369,Dolor de cabeza persistente,Reprogramada,11/22/2026,Pediatría,90,9,34
+370,Consulta de seguimiento,Cancelada,7/11/2025,Dermatología,147,175,486
+371,Consulta de seguimiento,Pendiente,11/10/2026,Cardiología,56,8,166
+372,Consulta de seguimiento,Pendiente,11/22/2024,Traumatología,68,122,381
+373,Resultados de laboratorio,Cancelada,7/7/2025,Dermatología,34,199,137
+374,Dolor de cabeza persistente,Confirmada,11/19/2026,Traumatología,159,67,456
+375,Dolor de cabeza persistente,Cancelada,10/18/2026,Traumatología,179,116,310
+376,Consulta de seguimiento,Cancelada,9/7/2025,Pediatría,160,3,192
+377,Revisión anual y chequeo general,Confirmada,11/3/2025,Dermatología,38,111,408
+378,Dolor de cabeza persistente,Confirmada,11/12/2026,Dermatología,156,135,343
+379,Control de presión arterial,Confirmada,1/11/2025,Medicina General,130,141,209
+380,Consulta de seguimiento,Confirmada,12/23/2026,Cardiología,159,56,451
+381,Consulta de seguimiento,Cancelada,5/16/2024,Pediatría,168,197,272
+382,Revisión anual y chequeo general,Reprogramada,6/6/2026,Traumatología,155,187,108
+383,Dolor de cabeza persistente,Pendiente,11/11/2026,Medicina General,40,40,389
+384,Resultados de laboratorio,Pendiente,11/4/2024,Dermatología,96,107,182
+385,Consulta de seguimiento,Confirmada,2/4/2024,Traumatología,62,175,206
+386,Control de presión arterial,Pendiente,1/16/2026,Ginecología,86,181,92
+387,Revisión anual y chequeo general,Cancelada,11/27/2026,Traumatología,131,67,133
+388,Resultados de laboratorio,Reprogramada,6/4/2024,Ginecología,126,63,496
+389,Resultados de laboratorio,Confirmada,1/7/2026,Cardiología,115,161,142
+390,Consulta de seguimiento,Pendiente,7/29/2026,Dermatología,161,61,96
+391,Dolor de cabeza persistente,Reprogramada,9/7/2026,Dermatología,71,185,353
+392,Resultados de laboratorio,Confirmada,12/27/2024,Traumatología,53,104,287
+393,Control de presión arterial,Confirmada,7/18/2024,Pediatría,104,133,131
+394,Resultados de laboratorio,Cancelada,11/9/2025,Cardiología,146,125,239
+395,Consulta de seguimiento,Cancelada,12/10/2024,Medicina General,60,81,7
+396,Resultados de laboratorio,Cancelada,10/17/2025,Traumatología,110,17,528
+397,Revisión anual y chequeo general,Reprogramada,9/11/2026,Ginecología,15,114,225
+398,Dolor de cabeza persistente,Reprogramada,9/16/2024,Ginecología,116,73,255
+399,Revisión anual y chequeo general,Confirmada,5/17/2025,Traumatología,41,182,189
+400,Consulta de seguimiento,Cancelada,2/7/2024,Traumatología,36,83,138
+401,Control de presión arterial,Pendiente,11/19/2026,Ginecología,133,199,124
+402,Revisión anual y chequeo general,Confirmada,1/16/2025,Medicina General,130,136,209
+403,Control de presión arterial,Reprogramada,1/8/2025,Ginecología,172,123,106
+404,Resultados de laboratorio,Pendiente,3/21/2024,Medicina General,122,132,484
+405,Revisión anual y chequeo general,Pendiente,2/7/2024,Dermatología,163,129,365
+406,Revisión anual y chequeo general,Reprogramada,2/8/2025,Medicina General,135,119,16
+407,Control de presión arterial,Pendiente,9/28/2025,Medicina General,19,127,313
+408,Consulta de seguimiento,Reprogramada,8/20/2026,Ginecología,112,10,467
+409,Revisión anual y chequeo general,Confirmada,1/22/2024,Dermatología,66,121,198
+410,Dolor de cabeza persistente,Pendiente,7/26/2025,Medicina General,145,43,64
+411,Consulta de seguimiento,Reprogramada,8/12/2026,Dermatología,93,53,276
+412,Consulta de seguimiento,Cancelada,5/24/2025,Ginecología,159,58,219
+413,Dolor de cabeza persistente,Pendiente,4/9/2024,Pediatría,68,2,228
+414,Consulta de seguimiento,Cancelada,6/27/2026,Ginecología,19,165,368
+415,Revisión anual y chequeo general,Confirmada,10/27/2026,Medicina General,63,13,182
+416,Consulta de seguimiento,Pendiente,6/1/2024,Traumatología,103,150,539
+417,Resultados de laboratorio,Cancelada,8/28/2025,Ginecología,39,105,303
+418,Dolor de cabeza persistente,Cancelada,6/6/2025,Traumatología,45,117,420
+419,Dolor de cabeza persistente,Cancelada,10/21/2026,Medicina General,94,112,237
+420,Resultados de laboratorio,Confirmada,2/16/2026,Pediatría,112,75,596
+421,Dolor de cabeza persistente,Pendiente,6/17/2025,Pediatría,47,106,74
+422,Consulta de seguimiento,Cancelada,8/9/2026,Ginecología,143,98,236
+423,Resultados de laboratorio,Reprogramada,4/20/2025,Pediatría,11,21,516
+424,Dolor de cabeza persistente,Reprogramada,2/10/2024,Medicina General,27,101,140
+425,Consulta de seguimiento,Pendiente,6/29/2026,Ginecología,137,141,10
+426,Resultados de laboratorio,Confirmada,12/20/2024,Medicina General,63,79,46
+427,Revisión anual y chequeo general,Confirmada,10/6/2026,Cardiología,135,121,540
+428,Dolor de cabeza persistente,Cancelada,1/20/2026,Traumatología,118,144,503
+429,Dolor de cabeza persistente,Confirmada,1/30/2025,Cardiología,33,117,384
+430,Control de presión arterial,Confirmada,6/24/2026,Pediatría,158,156,367
+431,Consulta de seguimiento,Pendiente,7/13/2024,Pediatría,166,39,64
+432,Resultados de laboratorio,Confirmada,3/31/2025,Pediatría,24,79,190
+433,Dolor de cabeza persistente,Reprogramada,9/30/2025,Pediatría,40,136,111
+434,Dolor de cabeza persistente,Cancelada,12/11/2026,Traumatología,33,163,429
+435,Dolor de cabeza persistente,Cancelada,6/17/2025,Dermatología,149,160,148
+436,Revisión anual y chequeo general,Confirmada,9/26/2026,Medicina General,42,55,188
+437,Consulta de seguimiento,Confirmada,1/17/2025,Dermatología,88,135,257
+438,Revisión anual y chequeo general,Pendiente,6/4/2024,Dermatología,158,57,230
+439,Consulta de seguimiento,Reprogramada,7/25/2026,Dermatología,86,182,14
+440,Dolor de cabeza persistente,Cancelada,10/8/2024,Ginecología,101,24,176
+441,Revisión anual y chequeo general,Reprogramada,4/15/2025,Medicina General,35,184,374
+442,Dolor de cabeza persistente,Cancelada,12/18/2026,Traumatología,128,181,71
+443,Control de presión arterial,Confirmada,11/12/2026,Ginecología,75,171,123
+444,Resultados de laboratorio,Pendiente,7/24/2025,Dermatología,152,10,342
+445,Dolor de cabeza persistente,Reprogramada,5/4/2026,Ginecología,167,43,170
+446,Revisión anual y chequeo general,Confirmada,1/19/2025,Cardiología,112,1,561
+447,Control de presión arterial,Pendiente,8/29/2025,Medicina General,130,33,306
+448,Control de presión arterial,Pendiente,3/6/2026,Dermatología,29,121,112
+449,Revisión anual y chequeo general,Cancelada,8/31/2024,Dermatología,133,63,431
+450,Consulta de seguimiento,Confirmada,12/29/2025,Ginecología,100,200,456
+451,Dolor de cabeza persistente,Pendiente,7/20/2025,Medicina General,42,199,580
+452,Consulta de seguimiento,Confirmada,5/14/2025,Dermatología,23,193,180
+453,Control de presión arterial,Pendiente,1/11/2026,Traumatología,119,160,389
+454,Dolor de cabeza persistente,Confirmada,3/21/2025,Dermatología,127,12,121
+455,Resultados de laboratorio,Confirmada,1/21/2025,Ginecología,60,30,536
+456,Consulta de seguimiento,Cancelada,5/5/2025,Traumatología,108,98,446
+457,Resultados de laboratorio,Reprogramada,4/2/2024,Cardiología,179,187,77
+458,Control de presión arterial,Reprogramada,12/4/2026,Medicina General,57,109,30
+459,Dolor de cabeza persistente,Reprogramada,11/23/2024,Cardiología,144,146,424
+460,Consulta de seguimiento,Confirmada,9/23/2025,Cardiología,15,15,406
+461,Revisión anual y chequeo general,Confirmada,9/5/2024,Ginecología,70,23,36
+462,Consulta de seguimiento,Confirmada,10/21/2024,Cardiología,168,96,182
+463,Dolor de cabeza persistente,Pendiente,4/2/2024,Traumatología,89,3,118
+464,Revisión anual y chequeo general,Confirmada,2/12/2025,Ginecología,66,106,336
+465,Resultados de laboratorio,Cancelada,4/21/2025,Traumatología,76,5,552
+466,Resultados de laboratorio,Pendiente,3/25/2026,Ginecología,32,60,247
+467,Revisión anual y chequeo general,Reprogramada,2/3/2024,Medicina General,132,104,403
+468,Control de presión arterial,Pendiente,5/11/2024,Pediatría,19,37,418
+469,Consulta de seguimiento,Pendiente,6/22/2024,Traumatología,7,136,227
+470,Resultados de laboratorio,Confirmada,1/6/2026,Medicina General,159,192,533
+471,Revisión anual y chequeo general,Confirmada,9/3/2024,Medicina General,146,129,183
+472,Resultados de laboratorio,Confirmada,9/20/2025,Ginecología,87,12,321
+473,Control de presión arterial,Cancelada,6/5/2025,Medicina General,130,182,99
+474,Dolor de cabeza persistente,Pendiente,12/29/2024,Ginecología,96,124,596
+475,Control de presión arterial,Confirmada,12/12/2024,Pediatría,99,198,103
+476,Dolor de cabeza persistente,Reprogramada,6/7/2026,Pediatría,170,105,570
+477,Dolor de cabeza persistente,Pendiente,2/20/2024,Cardiología,173,150,124
+478,Dolor de cabeza persistente,Pendiente,6/7/2026,Pediatría,79,196,128
+479,Consulta de seguimiento,Pendiente,7/18/2025,Ginecología,61,67,128
+480,Dolor de cabeza persistente,Confirmada,6/19/2025,Cardiología,11,143,132
+481,Dolor de cabeza persistente,Confirmada,10/27/2025,Ginecología,33,176,247
+482,Control de presión arterial,Reprogramada,4/22/2024,Pediatría,145,96,411
+483,Control de presión arterial,Confirmada,6/17/2025,Cardiología,123,50,124
+484,Resultados de laboratorio,Confirmada,8/9/2026,Traumatología,17,154,309
+485,Control de presión arterial,Reprogramada,12/22/2024,Traumatología,72,52,186
+486,Consulta de seguimiento,Reprogramada,4/1/2024,Pediatría,86,38,50
+487,Revisión anual y chequeo general,Cancelada,1/15/2025,Pediatría,21,140,526
+488,Control de presión arterial,Confirmada,7/23/2025,Medicina General,24,20,65
+489,Consulta de seguimiento,Reprogramada,12/14/2024,Ginecología,83,41,158
+490,Control de presión arterial,Pendiente,4/21/2025,Ginecología,27,2,153
+491,Control de presión arterial,Confirmada,3/14/2025,Dermatología,10,27,527
+492,Consulta de seguimiento,Pendiente,1/2/2026,Cardiología,42,106,566
+493,Dolor de cabeza persistente,Confirmada,7/28/2025,Dermatología,84,138,476
+494,Dolor de cabeza persistente,Confirmada,1/5/2024,Ginecología,83,186,94
+495,Consulta de seguimiento,Pendiente,9/22/2024,Cardiología,113,45,312
+496,Dolor de cabeza persistente,Cancelada,6/2/2025,Pediatría,23,56,72
+497,Consulta de seguimiento,Reprogramada,12/22/2026,Traumatología,105,33,412
+498,Resultados de laboratorio,Pendiente,2/2/2024,Cardiología,81,2,32
+499,Control de presión arterial,Pendiente,4/22/2025,Dermatología,35,116,313
+500,Revisión anual y chequeo general,Pendiente,4/22/2024,Traumatología,13,166,479
+501,Control de presión arterial,Reprogramada,4/5/2024,Ginecología,63,78,563
+502,Revisión anual y chequeo general,Pendiente,7/11/2026,Cardiología,6,93,83
+503,Dolor de cabeza persistente,Cancelada,11/23/2026,Traumatología,17,28,31
+504,Revisión anual y chequeo general,Pendiente,1/31/2026,Cardiología,56,39,236
+505,Revisión anual y chequeo general,Reprogramada,6/9/2024,Dermatología,66,129,433
+506,Control de presión arterial,Cancelada,8/2/2024,Cardiología,177,44,542
+507,Control de presión arterial,Reprogramada,8/30/2025,Medicina General,155,186,525
+508,Dolor de cabeza persistente,Pendiente,12/21/2026,Pediatría,100,98,267
+509,Consulta de seguimiento,Cancelada,11/4/2024,Cardiología,97,126,219
+510,Control de presión arterial,Pendiente,3/16/2026,Pediatría,105,120,32
+511,Consulta de seguimiento,Cancelada,7/21/2026,Ginecología,137,126,404
+512,Dolor de cabeza persistente,Reprogramada,5/24/2026,Pediatría,44,54,372
+513,Revisión anual y chequeo general,Reprogramada,8/30/2024,Pediatría,33,26,319
+514,Resultados de laboratorio,Confirmada,8/31/2024,Medicina General,11,157,299
+515,Resultados de laboratorio,Pendiente,9/29/2024,Medicina General,21,24,200
+516,Resultados de laboratorio,Reprogramada,6/29/2024,Traumatología,100,186,8
+517,Resultados de laboratorio,Pendiente,10/24/2024,Traumatología,123,60,539
+518,Control de presión arterial,Confirmada,10/17/2026,Cardiología,52,136,113
+519,Revisión anual y chequeo general,Pendiente,5/7/2025,Traumatología,126,112,401
+520,Consulta de seguimiento,Confirmada,12/11/2025,Pediatría,82,71,495
+521,Consulta de seguimiento,Confirmada,10/8/2025,Traumatología,150,176,307
+522,Control de presión arterial,Pendiente,3/30/2026,Ginecología,34,76,363
+523,Control de presión arterial,Reprogramada,10/26/2025,Ginecología,172,18,33
+524,Resultados de laboratorio,Reprogramada,11/3/2025,Traumatología,56,32,79
+525,Resultados de laboratorio,Confirmada,7/14/2024,Medicina General,167,20,484
+526,Revisión anual y chequeo general,Reprogramada,2/15/2026,Dermatología,37,23,70
+527,Dolor de cabeza persistente,Confirmada,2/2/2024,Ginecología,49,117,183
+528,Revisión anual y chequeo general,Confirmada,1/13/2026,Traumatología,137,92,586
+529,Consulta de seguimiento,Confirmada,6/29/2024,Pediatría,60,118,324
+530,Consulta de seguimiento,Confirmada,12/21/2025,Dermatología,13,164,244
+531,Control de presión arterial,Cancelada,5/16/2025,Traumatología,49,109,226
+532,Control de presión arterial,Reprogramada,5/25/2026,Pediatría,56,200,77
+533,Control de presión arterial,Pendiente,12/11/2026,Traumatología,129,33,558
+534,Resultados de laboratorio,Reprogramada,8/5/2024,Pediatría,16,165,86
+535,Resultados de laboratorio,Reprogramada,10/25/2026,Medicina General,151,142,197
+536,Dolor de cabeza persistente,Reprogramada,5/24/2026,Traumatología,82,146,444
+537,Dolor de cabeza persistente,Pendiente,11/15/2024,Traumatología,82,19,496
+538,Revisión anual y chequeo general,Reprogramada,10/22/2025,Pediatría,155,21,527
+539,Revisión anual y chequeo general,Cancelada,5/19/2025,Cardiología,121,145,225
+540,Control de presión arterial,Cancelada,8/22/2025,Ginecología,78,89,116
+541,Dolor de cabeza persistente,Pendiente,11/10/2025,Traumatología,25,53,562
+542,Control de presión arterial,Cancelada,10/15/2026,Medicina General,23,134,276
+543,Control de presión arterial,Reprogramada,6/18/2026,Traumatología,19,84,179
+544,Dolor de cabeza persistente,Cancelada,1/19/2024,Ginecología,141,2,508
+545,Consulta de seguimiento,Confirmada,1/2/2024,Dermatología,41,139,355
+546,Consulta de seguimiento,Pendiente,6/14/2025,Cardiología,104,144,199
+547,Control de presión arterial,Reprogramada,12/5/2026,Dermatología,128,104,311
+548,Revisión anual y chequeo general,Pendiente,8/30/2024,Pediatría,177,187,107
+549,Revisión anual y chequeo general,Cancelada,10/25/2024,Ginecología,11,151,384
+550,Consulta de seguimiento,Confirmada,9/25/2026,Medicina General,43,107,149
+551,Resultados de laboratorio,Cancelada,6/12/2024,Pediatría,74,165,245
+552,Revisión anual y chequeo general,Reprogramada,2/24/2026,Ginecología,111,171,589
+553,Revisión anual y chequeo general,Pendiente,12/30/2024,Medicina General,33,174,243
+554,Resultados de laboratorio,Confirmada,1/3/2026,Medicina General,96,105,209
+555,Resultados de laboratorio,Reprogramada,10/12/2026,Medicina General,38,48,239
+556,Consulta de seguimiento,Reprogramada,4/27/2025,Ginecología,162,194,275
+557,Consulta de seguimiento,Confirmada,8/5/2025,Ginecología,60,34,41
+558,Control de presión arterial,Pendiente,12/21/2026,Dermatología,95,51,512
+559,Control de presión arterial,Pendiente,6/13/2026,Pediatría,89,125,585
+560,Control de presión arterial,Cancelada,5/17/2025,Cardiología,58,163,597
+561,Consulta de seguimiento,Pendiente,12/9/2026,Dermatología,126,103,326
+562,Consulta de seguimiento,Cancelada,10/19/2025,Ginecología,171,190,546
+563,Revisión anual y chequeo general,Pendiente,2/18/2025,Pediatría,169,164,242
+564,Resultados de laboratorio,Confirmada,3/12/2024,Ginecología,180,139,316
+565,Control de presión arterial,Cancelada,9/13/2025,Medicina General,79,120,520
+566,Resultados de laboratorio,Confirmada,8/9/2026,Medicina General,5,152,26
+567,Revisión anual y chequeo general,Pendiente,6/2/2026,Ginecología,123,179,359
+568,Control de presión arterial,Cancelada,5/19/2025,Medicina General,117,51,529
+569,Dolor de cabeza persistente,Cancelada,5/9/2025,Medicina General,21,104,321
+570,Control de presión arterial,Pendiente,7/7/2024,Dermatología,11,84,285
+571,Dolor de cabeza persistente,Confirmada,1/6/2026,Traumatología,178,92,70
+572,Control de presión arterial,Confirmada,4/10/2026,Cardiología,39,98,583
+573,Dolor de cabeza persistente,Pendiente,2/27/2025,Medicina General,94,181,476
+574,Dolor de cabeza persistente,Confirmada,9/8/2025,Dermatología,21,84,383
+575,Control de presión arterial,Cancelada,1/30/2025,Medicina General,92,173,343
+576,Resultados de laboratorio,Confirmada,8/6/2025,Cardiología,30,69,375
+577,Control de presión arterial,Confirmada,2/4/2026,Pediatría,100,59,301
+578,Dolor de cabeza persistente,Cancelada,12/11/2026,Traumatología,78,138,62
+579,Resultados de laboratorio,Confirmada,8/14/2025,Pediatría,133,37,353
+580,Consulta de seguimiento,Cancelada,8/4/2026,Traumatología,61,99,468
+581,Control de presión arterial,Confirmada,12/5/2024,Traumatología,13,140,50
+582,Revisión anual y chequeo general,Pendiente,3/19/2024,Cardiología,163,35,530
+583,Dolor de cabeza persistente,Pendiente,7/8/2024,Dermatología,131,145,484
+584,Consulta de seguimiento,Cancelada,1/18/2026,Ginecología,16,23,555
+585,Dolor de cabeza persistente,Confirmada,5/30/2024,Cardiología,55,100,312
+586,Control de presión arterial,Pendiente,7/24/2025,Medicina General,98,188,428
+587,Control de presión arterial,Reprogramada,11/11/2025,Pediatría,64,172,572
+588,Control de presión arterial,Cancelada,2/26/2025,Medicina General,108,179,546
+589,Revisión anual y chequeo general,Confirmada,4/24/2025,Traumatología,34,113,469
+590,Resultados de laboratorio,Reprogramada,4/19/2025,Dermatología,139,72,574
+591,Revisión anual y chequeo general,Pendiente,3/15/2025,Traumatología,161,105,217
+592,Resultados de laboratorio,Cancelada,12/25/2026,Cardiología,158,113,420
+593,Revisión anual y chequeo general,Reprogramada,12/31/2025,Ginecología,77,165,586
+594,Revisión anual y chequeo general,Confirmada,11/10/2025,Cardiología,155,178,445
+595,Revisión anual y chequeo general,Cancelada,2/15/2026,Pediatría,85,117,156
+596,Dolor de cabeza persistente,Cancelada,9/17/2025,Cardiología,114,13,70
+597,Consulta de seguimiento,Confirmada,1/19/2026,Ginecología,31,12,9
+598,Resultados de laboratorio,Cancelada,1/14/2026,Ginecología,43,15,131
+599,Resultados de laboratorio,Cancelada,1/25/2025,Cardiología,151,195,37
+600,Control de presión arterial,Confirmada,6/25/2026,Traumatología,17,24,307
+601,Revisión anual y chequeo general,Pendiente,1/10/2025,Pediatría,115,82,523
+602,Control de presión arterial,Reprogramada,7/29/2025,Dermatología,95,52,319
+603,Control de presión arterial,Reprogramada,3/4/2024,Ginecología,173,72,488
+604,Dolor de cabeza persistente,Cancelada,3/4/2026,Cardiología,174,178,98
+605,Resultados de laboratorio,Pendiente,12/26/2024,Dermatología,156,127,469
+606,Consulta de seguimiento,Cancelada,12/29/2024,Cardiología,31,13,368
+607,Dolor de cabeza persistente,Pendiente,9/27/2026,Ginecología,53,16,561
+608,Dolor de cabeza persistente,Reprogramada,10/10/2025,Ginecología,41,135,329
+609,Consulta de seguimiento,Cancelada,9/10/2024,Traumatología,66,10,428
+610,Dolor de cabeza persistente,Cancelada,3/20/2024,Traumatología,178,52,316
+611,Consulta de seguimiento,Pendiente,2/20/2024,Dermatología,86,121,559
+612,Consulta de seguimiento,Pendiente,1/24/2025,Ginecología,51,131,73
+613,Control de presión arterial,Pendiente,7/19/2025,Traumatología,100,175,298
+614,Dolor de cabeza persistente,Confirmada,8/22/2026,Cardiología,58,122,73
+615,Resultados de laboratorio,Reprogramada,4/18/2024,Medicina General,161,84,320
+616,Resultados de laboratorio,Cancelada,10/17/2025,Traumatología,163,180,493
+617,Resultados de laboratorio,Reprogramada,10/1/2024,Traumatología,63,7,551
+618,Revisión anual y chequeo general,Pendiente,9/20/2024,Cardiología,148,26,124
+619,Dolor de cabeza persistente,Reprogramada,2/20/2026,Pediatría,159,104,568
+620,Revisión anual y chequeo general,Cancelada,5/27/2025,Traumatología,173,35,239
+621,Revisión anual y chequeo general,Reprogramada,4/30/2025,Ginecología,110,25,319
+622,Resultados de laboratorio,Confirmada,5/18/2025,Ginecología,19,182,79
+623,Revisión anual y chequeo general,Reprogramada,9/17/2026,Dermatología,42,144,273
+624,Consulta de seguimiento,Cancelada,3/23/2024,Dermatología,149,69,351
+625,Consulta de seguimiento,Pendiente,1/31/2025,Pediatría,177,188,69
+626,Consulta de seguimiento,Pendiente,8/22/2024,Medicina General,129,137,277
+627,Resultados de laboratorio,Confirmada,6/25/2026,Dermatología,74,97,277
+628,Consulta de seguimiento,Pendiente,5/1/2025,Ginecología,100,193,83
+629,Resultados de laboratorio,Confirmada,11/19/2024,Ginecología,170,195,588
+630,Control de presión arterial,Cancelada,1/3/2025,Pediatría,38,18,172
+631,Dolor de cabeza persistente,Cancelada,5/7/2025,Medicina General,175,190,260
+632,Consulta de seguimiento,Confirmada,5/13/2024,Medicina General,71,182,333
+633,Control de presión arterial,Confirmada,6/21/2025,Traumatología,161,160,545
+634,Revisión anual y chequeo general,Cancelada,7/1/2026,Traumatología,50,158,42
+635,Consulta de seguimiento,Pendiente,7/18/2024,Pediatría,83,186,417
+636,Revisión anual y chequeo general,Pendiente,9/8/2024,Ginecología,161,151,438
+637,Consulta de seguimiento,Cancelada,4/16/2026,Cardiología,176,191,68
+638,Consulta de seguimiento,Reprogramada,1/31/2025,Ginecología,77,115,429
+639,Control de presión arterial,Cancelada,4/14/2024,Medicina General,79,18,493
+640,Dolor de cabeza persistente,Confirmada,11/9/2025,Ginecología,55,7,309
+641,Control de presión arterial,Reprogramada,2/7/2024,Traumatología,106,154,179
+642,Control de presión arterial,Reprogramada,6/29/2024,Traumatología,93,74,69
+643,Revisión anual y chequeo general,Cancelada,4/24/2026,Medicina General,145,53,276
+644,Resultados de laboratorio,Cancelada,9/2/2025,Traumatología,178,168,362
+645,Control de presión arterial,Cancelada,1/8/2026,Cardiología,140,142,395
+646,Revisión anual y chequeo general,Pendiente,5/25/2024,Medicina General,118,29,343
+647,Consulta de seguimiento,Pendiente,5/16/2025,Cardiología,163,21,437
+648,Consulta de seguimiento,Cancelada,5/28/2026,Dermatología,156,24,106
+649,Dolor de cabeza persistente,Reprogramada,11/22/2024,Dermatología,50,85,557
+650,Control de presión arterial,Pendiente,7/13/2025,Ginecología,106,93,330
+651,Resultados de laboratorio,Pendiente,10/18/2024,Pediatría,85,128,595
+652,Consulta de seguimiento,Cancelada,11/9/2026,Dermatología,91,55,292
+653,Dolor de cabeza persistente,Confirmada,7/9/2024,Ginecología,107,113,579
+654,Control de presión arterial,Confirmada,3/18/2024,Pediatría,16,63,564
+655,Revisión anual y chequeo general,Reprogramada,4/7/2025,Traumatología,33,40,155
+656,Consulta de seguimiento,Reprogramada,3/22/2024,Pediatría,153,72,28
+657,Control de presión arterial,Cancelada,6/26/2025,Pediatría,119,24,554
+658,Revisión anual y chequeo general,Confirmada,11/5/2025,Ginecología,166,146,240
+659,Consulta de seguimiento,Reprogramada,9/1/2025,Dermatología,112,158,221
+660,Revisión anual y chequeo general,Cancelada,11/2/2025,Ginecología,112,31,109
+661,Control de presión arterial,Confirmada,11/30/2024,Pediatría,103,113,142
+662,Dolor de cabeza persistente,Reprogramada,6/23/2026,Medicina General,39,99,257
+663,Resultados de laboratorio,Confirmada,2/26/2025,Pediatría,82,170,201
+664,Dolor de cabeza persistente,Cancelada,10/12/2024,Traumatología,131,117,529
+665,Consulta de seguimiento,Confirmada,4/11/2026,Pediatría,21,200,323
+666,Revisión anual y chequeo general,Confirmada,8/5/2025,Traumatología,34,134,212
+667,Control de presión arterial,Cancelada,12/5/2025,Medicina General,62,78,577
+668,Consulta de seguimiento,Pendiente,11/3/2025,Pediatría,174,51,18
+669,Control de presión arterial,Pendiente,12/9/2026,Traumatología,125,133,511
+670,Revisión anual y chequeo general,Reprogramada,9/4/2026,Pediatría,39,72,127
+671,Consulta de seguimiento,Cancelada,6/6/2026,Traumatología,21,103,247
+672,Control de presión arterial,Cancelada,8/29/2025,Cardiología,27,33,263
+673,Control de presión arterial,Cancelada,10/13/2024,Medicina General,87,61,493
+674,Control de presión arterial,Confirmada,11/8/2025,Dermatología,127,179,197
+675,Control de presión arterial,Confirmada,5/5/2026,Cardiología,119,122,500
+676,Consulta de seguimiento,Pendiente,6/27/2024,Pediatría,46,18,547
+677,Resultados de laboratorio,Confirmada,4/2/2024,Medicina General,78,184,109
+678,Consulta de seguimiento,Cancelada,10/25/2026,Ginecología,73,142,327
+679,Resultados de laboratorio,Cancelada,5/4/2026,Dermatología,38,98,28
+680,Control de presión arterial,Pendiente,2/12/2024,Ginecología,178,85,262
+681,Revisión anual y chequeo general,Reprogramada,11/14/2026,Dermatología,5,46,594
+682,Control de presión arterial,Cancelada,2/4/2026,Medicina General,65,63,502
+683,Dolor de cabeza persistente,Confirmada,1/1/2026,Medicina General,86,111,140
+684,Resultados de laboratorio,Reprogramada,2/3/2026,Traumatología,88,100,55
+685,Revisión anual y chequeo general,Confirmada,8/3/2026,Cardiología,102,124,245
+686,Consulta de seguimiento,Confirmada,4/17/2024,Ginecología,75,157,165
+687,Resultados de laboratorio,Pendiente,3/24/2025,Ginecología,153,148,267
+688,Control de presión arterial,Confirmada,3/17/2024,Traumatología,76,182,106
+689,Control de presión arterial,Pendiente,9/10/2026,Cardiología,157,149,411
+690,Control de presión arterial,Confirmada,6/19/2026,Medicina General,57,178,134
+691,Control de presión arterial,Confirmada,12/13/2026,Dermatología,12,198,13
+692,Dolor de cabeza persistente,Pendiente,10/23/2024,Medicina General,35,53,149
+693,Revisión anual y chequeo general,Cancelada,11/16/2024,Dermatología,55,109,536
+694,Revisión anual y chequeo general,Confirmada,4/7/2025,Medicina General,39,66,554
+695,Resultados de laboratorio,Pendiente,12/2/2024,Traumatología,48,168,382
+696,Dolor de cabeza persistente,Reprogramada,2/26/2024,Traumatología,55,162,4
+697,Consulta de seguimiento,Cancelada,5/10/2026,Pediatría,171,20,534
+698,Dolor de cabeza persistente,Pendiente,8/15/2025,Ginecología,135,23,41
+699,Dolor de cabeza persistente,Confirmada,10/22/2025,Medicina General,176,158,204
+700,Dolor de cabeza persistente,Cancelada,2/2/2025,Traumatología,176,118,530
+701,Revisión anual y chequeo general,Cancelada,11/15/2025,Ginecología,180,133,41
+702,Consulta de seguimiento,Reprogramada,2/26/2025,Ginecología,168,88,571
+703,Revisión anual y chequeo general,Pendiente,7/11/2026,Ginecología,95,28,86
+704,Revisión anual y chequeo general,Pendiente,3/25/2025,Medicina General,151,22,50
+705,Control de presión arterial,Pendiente,9/28/2025,Dermatología,124,22,260
+706,Dolor de cabeza persistente,Confirmada,8/8/2024,Medicina General,82,140,52
+707,Dolor de cabeza persistente,Cancelada,7/30/2025,Ginecología,45,77,202
+708,Consulta de seguimiento,Cancelada,2/9/2026,Medicina General,148,27,326
+709,Consulta de seguimiento,Reprogramada,3/1/2026,Medicina General,90,37,350
+710,Control de presión arterial,Pendiente,4/26/2025,Medicina General,172,9,586
+711,Control de presión arterial,Pendiente,2/22/2025,Cardiología,114,19,408
+712,Consulta de seguimiento,Pendiente,12/1/2024,Medicina General,19,5,27
+713,Dolor de cabeza persistente,Confirmada,7/15/2026,Ginecología,92,197,455
+714,Control de presión arterial,Cancelada,6/24/2024,Cardiología,100,5,496
+715,Consulta de seguimiento,Reprogramada,7/31/2026,Cardiología,126,23,170
+716,Control de presión arterial,Pendiente,10/23/2024,Cardiología,30,150,432
+717,Resultados de laboratorio,Cancelada,7/8/2024,Medicina General,10,47,353
+718,Control de presión arterial,Reprogramada,11/10/2024,Cardiología,31,15,244
+719,Dolor de cabeza persistente,Cancelada,10/23/2024,Pediatría,101,109,269
+720,Resultados de laboratorio,Cancelada,11/12/2026,Dermatología,160,200,142
+721,Control de presión arterial,Reprogramada,7/24/2026,Medicina General,38,137,149
+722,Consulta de seguimiento,Reprogramada,5/19/2024,Traumatología,97,177,508
+723,Consulta de seguimiento,Confirmada,5/1/2025,Dermatología,108,16,55
+724,Dolor de cabeza persistente,Reprogramada,1/18/2026,Medicina General,120,160,289
+725,Resultados de laboratorio,Reprogramada,1/4/2025,Medicina General,99,146,327
+726,Consulta de seguimiento,Cancelada,8/7/2026,Medicina General,115,16,81
+727,Consulta de seguimiento,Cancelada,11/2/2026,Ginecología,94,72,194
+728,Dolor de cabeza persistente,Cancelada,10/3/2026,Cardiología,123,68,88
+729,Control de presión arterial,Confirmada,5/10/2026,Dermatología,30,18,542
+730,Revisión anual y chequeo general,Pendiente,5/23/2025,Dermatología,136,103,599
+731,Consulta de seguimiento,Reprogramada,1/19/2024,Pediatría,161,139,413
+732,Resultados de laboratorio,Cancelada,8/4/2025,Ginecología,166,171,132
+733,Control de presión arterial,Pendiente,5/7/2026,Ginecología,91,166,97
+734,Revisión anual y chequeo general,Pendiente,5/27/2026,Ginecología,44,101,156
+735,Control de presión arterial,Reprogramada,12/23/2026,Dermatología,157,172,381
+736,Control de presión arterial,Confirmada,9/4/2025,Cardiología,154,84,538
+737,Control de presión arterial,Cancelada,6/28/2024,Dermatología,87,155,93
+738,Dolor de cabeza persistente,Reprogramada,9/16/2024,Medicina General,48,25,541
+739,Control de presión arterial,Pendiente,9/17/2026,Traumatología,148,42,577
+740,Resultados de laboratorio,Confirmada,6/30/2024,Ginecología,123,154,129
+741,Control de presión arterial,Confirmada,7/24/2025,Traumatología,139,157,541
+742,Resultados de laboratorio,Reprogramada,8/28/2024,Ginecología,60,47,90
+743,Consulta de seguimiento,Cancelada,5/5/2025,Cardiología,133,50,450
+744,Revisión anual y chequeo general,Cancelada,12/7/2026,Pediatría,80,120,7
+745,Resultados de laboratorio,Cancelada,4/6/2026,Pediatría,42,10,141
+746,Dolor de cabeza persistente,Pendiente,7/25/2024,Ginecología,49,57,44
+747,Control de presión arterial,Pendiente,6/2/2025,Medicina General,75,67,296
+748,Revisión anual y chequeo general,Confirmada,12/31/2025,Ginecología,53,14,214
+749,Dolor de cabeza persistente,Reprogramada,12/27/2025,Medicina General,79,170,370
+750,Revisión anual y chequeo general,Confirmada,2/12/2026,Medicina General,108,190,310
+751,Dolor de cabeza persistente,Pendiente,1/12/2026,Medicina General,8,47,29
+752,Dolor de cabeza persistente,Cancelada,7/24/2024,Pediatría,91,23,38
+753,Revisión anual y chequeo general,Reprogramada,9/10/2026,Pediatría,100,38,538
+754,Control de presión arterial,Confirmada,12/19/2024,Medicina General,36,77,124
+755,Dolor de cabeza persistente,Reprogramada,12/30/2026,Dermatología,78,64,206
+756,Dolor de cabeza persistente,Cancelada,11/30/2024,Medicina General,150,174,147
+757,Consulta de seguimiento,Pendiente,4/2/2026,Medicina General,62,76,582
+758,Resultados de laboratorio,Cancelada,1/11/2026,Dermatología,54,84,35
+759,Revisión anual y chequeo general,Cancelada,11/24/2026,Cardiología,135,71,64
+760,Resultados de laboratorio,Pendiente,6/1/2026,Dermatología,45,110,185
+761,Consulta de seguimiento,Pendiente,6/6/2026,Cardiología,114,160,117
+762,Resultados de laboratorio,Cancelada,5/13/2025,Dermatología,98,128,35
+763,Dolor de cabeza persistente,Cancelada,4/26/2024,Ginecología,63,160,241
+764,Revisión anual y chequeo general,Pendiente,9/12/2024,Medicina General,75,36,253
+765,Consulta de seguimiento,Pendiente,6/27/2024,Medicina General,44,179,399
+766,Resultados de laboratorio,Pendiente,11/26/2024,Cardiología,51,109,112
+767,Dolor de cabeza persistente,Confirmada,8/27/2026,Pediatría,177,176,139
+768,Revisión anual y chequeo general,Confirmada,11/28/2024,Pediatría,104,68,228
+769,Consulta de seguimiento,Reprogramada,11/2/2024,Pediatría,169,183,573
+770,Dolor de cabeza persistente,Cancelada,12/27/2024,Pediatría,179,50,88
+771,Dolor de cabeza persistente,Confirmada,6/6/2026,Ginecología,34,132,144
+772,Control de presión arterial,Cancelada,5/5/2024,Traumatología,17,80,412
+773,Control de presión arterial,Reprogramada,12/28/2025,Dermatología,24,52,464
+774,Control de presión arterial,Pendiente,1/31/2025,Ginecología,41,79,212
+775,Control de presión arterial,Reprogramada,4/23/2024,Dermatología,108,62,354
+776,Control de presión arterial,Reprogramada,4/4/2024,Ginecología,131,112,175
+777,Dolor de cabeza persistente,Reprogramada,1/17/2025,Traumatología,72,181,456
+778,Consulta de seguimiento,Confirmada,6/19/2026,Medicina General,81,182,508
+779,Resultados de laboratorio,Confirmada,2/19/2026,Traumatología,20,24,132
+780,Revisión anual y chequeo general,Confirmada,4/11/2025,Medicina General,90,164,328
+781,Control de presión arterial,Pendiente,6/11/2025,Cardiología,104,115,181
+782,Resultados de laboratorio,Cancelada,12/3/2025,Dermatología,172,80,56
+783,Dolor de cabeza persistente,Cancelada,7/27/2025,Cardiología,11,44,493
+784,Dolor de cabeza persistente,Reprogramada,8/6/2024,Ginecología,26,192,584
+785,Dolor de cabeza persistente,Confirmada,8/4/2026,Traumatología,95,169,27
+786,Resultados de laboratorio,Cancelada,2/13/2024,Medicina General,160,89,37
+787,Revisión anual y chequeo general,Pendiente,2/10/2024,Dermatología,159,123,352
+788,Revisión anual y chequeo general,Cancelada,2/18/2024,Cardiología,34,14,533
+789,Dolor de cabeza persistente,Reprogramada,4/10/2025,Dermatología,97,160,234
+790,Dolor de cabeza persistente,Reprogramada,9/16/2024,Ginecología,36,101,71
+791,Dolor de cabeza persistente,Cancelada,7/25/2024,Dermatología,54,26,248
+792,Control de presión arterial,Cancelada,5/24/2024,Dermatología,125,27,310
+793,Resultados de laboratorio,Confirmada,3/27/2024,Dermatología,92,58,314
+794,Dolor de cabeza persistente,Pendiente,12/5/2025,Traumatología,161,128,442
+795,Control de presión arterial,Confirmada,10/18/2024,Medicina General,133,117,346
+796,Resultados de laboratorio,Cancelada,2/27/2026,Ginecología,86,107,523
+797,Dolor de cabeza persistente,Pendiente,12/30/2026,Pediatría,61,183,332
+798,Revisión anual y chequeo general,Pendiente,4/19/2025,Traumatología,167,32,178
+799,Revisión anual y chequeo general,Pendiente,1/12/2026,Medicina General,160,184,551
+800,Control de presión arterial,Reprogramada,9/15/2026,Ginecología,141,66,251
+801,Revisión anual y chequeo general,Pendiente,9/1/2025,Pediatría,133,32,284
+802,Consulta de seguimiento,Confirmada,12/16/2025,Pediatría,63,133,473
+803,Control de presión arterial,Reprogramada,3/23/2024,Traumatología,9,195,401
+804,Revisión anual y chequeo general,Confirmada,2/28/2025,Pediatría,147,170,360
+805,Consulta de seguimiento,Reprogramada,6/13/2024,Cardiología,107,179,146
+806,Control de presión arterial,Pendiente,9/24/2025,Dermatología,105,175,262
+807,Revisión anual y chequeo general,Cancelada,10/13/2026,Cardiología,153,89,557
+808,Control de presión arterial,Confirmada,11/5/2025,Traumatología,49,71,116
+809,Control de presión arterial,Confirmada,5/25/2025,Traumatología,80,193,278
+810,Consulta de seguimiento,Pendiente,6/4/2025,Dermatología,64,193,447
+811,Revisión anual y chequeo general,Pendiente,5/4/2026,Dermatología,79,137,517
+812,Revisión anual y chequeo general,Cancelada,5/26/2025,Dermatología,36,130,536
+813,Revisión anual y chequeo general,Confirmada,5/4/2025,Pediatría,24,188,282
+814,Resultados de laboratorio,Confirmada,6/3/2025,Traumatología,32,26,569
+815,Control de presión arterial,Reprogramada,2/13/2024,Pediatría,27,106,86
+816,Revisión anual y chequeo general,Reprogramada,11/7/2024,Medicina General,99,157,327
+817,Resultados de laboratorio,Confirmada,1/15/2025,Traumatología,115,69,379
+818,Dolor de cabeza persistente,Pendiente,6/24/2025,Traumatología,123,128,106
+819,Dolor de cabeza persistente,Reprogramada,5/23/2025,Medicina General,79,86,542
+820,Control de presión arterial,Reprogramada,12/24/2026,Ginecología,43,96,273
+821,Consulta de seguimiento,Pendiente,8/23/2026,Cardiología,37,133,285
+822,Resultados de laboratorio,Cancelada,9/19/2024,Dermatología,52,11,442
+823,Control de presión arterial,Pendiente,3/17/2025,Ginecología,132,61,444
+824,Resultados de laboratorio,Reprogramada,7/23/2026,Pediatría,92,122,527
+825,Consulta de seguimiento,Pendiente,7/10/2026,Ginecología,56,50,389
+826,Resultados de laboratorio,Reprogramada,9/15/2024,Cardiología,173,12,499
+827,Consulta de seguimiento,Reprogramada,10/25/2026,Medicina General,106,183,365
+828,Control de presión arterial,Pendiente,5/18/2024,Medicina General,10,94,157
+829,Resultados de laboratorio,Confirmada,5/3/2026,Ginecología,77,185,484
+830,Consulta de seguimiento,Cancelada,10/28/2024,Pediatría,17,121,187
+831,Dolor de cabeza persistente,Confirmada,3/21/2026,Ginecología,21,59,566
+832,Control de presión arterial,Cancelada,10/13/2024,Ginecología,105,145,23
+833,Consulta de seguimiento,Pendiente,11/22/2024,Dermatología,141,86,573
+834,Dolor de cabeza persistente,Reprogramada,5/24/2024,Ginecología,12,92,308
+835,Resultados de laboratorio,Pendiente,8/24/2024,Cardiología,13,85,345
+836,Resultados de laboratorio,Pendiente,11/14/2024,Medicina General,23,183,160
+837,Revisión anual y chequeo general,Pendiente,11/21/2024,Traumatología,162,200,394
+838,Consulta de seguimiento,Confirmada,3/24/2026,Medicina General,50,178,22
+839,Resultados de laboratorio,Cancelada,2/9/2025,Traumatología,147,105,209
+840,Consulta de seguimiento,Confirmada,2/12/2026,Ginecología,9,141,433
+841,Revisión anual y chequeo general,Confirmada,12/16/2024,Traumatología,131,72,140
+842,Dolor de cabeza persistente,Cancelada,3/13/2024,Dermatología,120,11,232
+843,Revisión anual y chequeo general,Pendiente,6/7/2026,Ginecología,71,184,282
+844,Consulta de seguimiento,Cancelada,9/10/2026,Ginecología,88,71,496
+845,Control de presión arterial,Reprogramada,3/5/2024,Ginecología,179,97,125
+846,Revisión anual y chequeo general,Confirmada,12/3/2024,Pediatría,128,37,119
+847,Consulta de seguimiento,Cancelada,2/9/2025,Dermatología,88,17,176
+848,Control de presión arterial,Reprogramada,8/21/2025,Dermatología,143,81,418
+849,Resultados de laboratorio,Confirmada,4/24/2025,Ginecología,103,79,378
+850,Dolor de cabeza persistente,Cancelada,5/17/2026,Medicina General,151,63,440
+851,Revisión anual y chequeo general,Reprogramada,8/15/2024,Dermatología,22,4,466
+852,Revisión anual y chequeo general,Reprogramada,7/9/2026,Pediatría,114,147,194
+853,Resultados de laboratorio,Reprogramada,8/23/2024,Dermatología,84,56,359
+854,Resultados de laboratorio,Pendiente,2/5/2024,Medicina General,98,89,167
+855,Resultados de laboratorio,Cancelada,10/23/2024,Ginecología,46,77,345
+856,Dolor de cabeza persistente,Confirmada,8/3/2026,Medicina General,95,189,90
+857,Dolor de cabeza persistente,Pendiente,8/31/2025,Cardiología,25,87,588
+858,Consulta de seguimiento,Confirmada,2/13/2026,Traumatología,149,126,466
+859,Dolor de cabeza persistente,Cancelada,2/6/2026,Traumatología,38,141,306
+860,Consulta de seguimiento,Pendiente,4/8/2025,Dermatología,89,190,145
+861,Revisión anual y chequeo general,Pendiente,11/24/2026,Traumatología,176,60,147
+862,Consulta de seguimiento,Reprogramada,9/20/2026,Traumatología,65,63,54
+863,Consulta de seguimiento,Cancelada,11/23/2025,Medicina General,168,171,227
+864,Control de presión arterial,Reprogramada,1/8/2026,Cardiología,35,92,260
+865,Consulta de seguimiento,Confirmada,2/18/2026,Cardiología,168,178,391
+866,Consulta de seguimiento,Confirmada,5/22/2026,Medicina General,145,52,30
+867,Control de presión arterial,Reprogramada,4/28/2024,Medicina General,57,186,81
+868,Dolor de cabeza persistente,Cancelada,11/18/2025,Pediatría,75,161,532
+869,Dolor de cabeza persistente,Confirmada,10/26/2025,Dermatología,101,72,544
+870,Revisión anual y chequeo general,Reprogramada,5/1/2024,Cardiología,17,122,514
+871,Resultados de laboratorio,Pendiente,8/12/2024,Pediatría,104,108,442
+872,Resultados de laboratorio,Reprogramada,4/15/2025,Pediatría,77,182,541
+873,Resultados de laboratorio,Cancelada,7/13/2024,Pediatría,5,98,153
+874,Dolor de cabeza persistente,Cancelada,9/21/2026,Medicina General,109,196,181
+875,Revisión anual y chequeo general,Pendiente,10/15/2024,Medicina General,52,81,402
+876,Control de presión arterial,Confirmada,1/10/2026,Cardiología,9,98,24
+877,Revisión anual y chequeo general,Confirmada,11/12/2024,Dermatología,47,12,538
+878,Resultados de laboratorio,Reprogramada,5/5/2026,Pediatría,133,44,100
+879,Revisión anual y chequeo general,Pendiente,7/26/2025,Traumatología,50,182,27
+880,Resultados de laboratorio,Pendiente,1/11/2026,Dermatología,75,56,463
+881,Dolor de cabeza persistente,Confirmada,3/6/2024,Cardiología,22,198,163
+882,Dolor de cabeza persistente,Confirmada,7/3/2025,Pediatría,174,195,275
+883,Revisión anual y chequeo general,Reprogramada,1/21/2024,Traumatología,25,165,251
+884,Revisión anual y chequeo general,Confirmada,12/22/2024,Ginecología,106,36,361
+885,Revisión anual y chequeo general,Confirmada,7/6/2025,Medicina General,123,163,40
+886,Revisión anual y chequeo general,Reprogramada,11/12/2026,Pediatría,118,78,83
+887,Resultados de laboratorio,Confirmada,10/7/2024,Ginecología,62,122,337
+888,Revisión anual y chequeo general,Cancelada,10/16/2024,Pediatría,80,37,572
+889,Dolor de cabeza persistente,Confirmada,8/18/2025,Ginecología,126,40,136
+890,Consulta de seguimiento,Confirmada,1/9/2025,Dermatología,94,156,237
+891,Resultados de laboratorio,Reprogramada,2/16/2024,Pediatría,143,198,446
+892,Revisión anual y chequeo general,Reprogramada,5/3/2026,Traumatología,150,1,275
+893,Revisión anual y chequeo general,Confirmada,12/23/2025,Ginecología,170,29,171
+894,Dolor de cabeza persistente,Cancelada,2/12/2025,Cardiología,116,178,510
+895,Dolor de cabeza persistente,Confirmada,1/16/2024,Dermatología,116,78,370
+896,Revisión anual y chequeo general,Cancelada,10/10/2025,Cardiología,94,70,415
+897,Resultados de laboratorio,Confirmada,9/6/2024,Medicina General,180,30,249
+898,Consulta de seguimiento,Cancelada,1/5/2024,Pediatría,64,138,83
+899,Consulta de seguimiento,Cancelada,5/17/2024,Ginecología,139,99,85
+900,Consulta de seguimiento,Confirmada,5/13/2025,Pediatría,47,36,194
+901,Consulta de seguimiento,Reprogramada,10/3/2026,Pediatría,64,53,392
+902,Resultados de laboratorio,Pendiente,7/7/2024,Medicina General,84,89,288
+903,Control de presión arterial,Confirmada,1/17/2025,Ginecología,101,159,332
+904,Dolor de cabeza persistente,Pendiente,3/24/2026,Traumatología,179,30,211
+905,Dolor de cabeza persistente,Confirmada,5/13/2024,Traumatología,35,29,145
+906,Consulta de seguimiento,Reprogramada,3/13/2024,Medicina General,23,152,298
+907,Revisión anual y chequeo general,Confirmada,4/5/2025,Dermatología,89,197,128
+908,Control de presión arterial,Confirmada,7/25/2025,Dermatología,151,48,249
+909,Control de presión arterial,Reprogramada,4/13/2026,Medicina General,89,166,488
+910,Dolor de cabeza persistente,Reprogramada,5/27/2026,Traumatología,125,94,402
+911,Revisión anual y chequeo general,Pendiente,2/8/2026,Ginecología,133,53,398
+912,Control de presión arterial,Cancelada,8/4/2026,Pediatría,10,128,414
+913,Dolor de cabeza persistente,Confirmada,10/19/2025,Dermatología,91,46,447
+914,Revisión anual y chequeo general,Reprogramada,2/4/2024,Cardiología,38,180,106
+915,Control de presión arterial,Confirmada,5/2/2024,Dermatología,15,94,104
+916,Control de presión arterial,Pendiente,2/6/2024,Traumatología,121,140,530
+917,Consulta de seguimiento,Pendiente,8/31/2025,Pediatría,111,116,518
+918,Control de presión arterial,Confirmada,3/31/2025,Medicina General,66,165,45
+919,Consulta de seguimiento,Confirmada,3/31/2026,Pediatría,159,106,207
+920,Dolor de cabeza persistente,Confirmada,2/10/2025,Pediatría,84,70,591
+921,Resultados de laboratorio,Reprogramada,12/19/2026,Cardiología,153,96,297
+922,Dolor de cabeza persistente,Confirmada,12/27/2025,Traumatología,16,75,461
+923,Control de presión arterial,Confirmada,4/22/2026,Medicina General,96,123,93
+924,Revisión anual y chequeo general,Pendiente,2/19/2025,Traumatología,60,36,220
+925,Revisión anual y chequeo general,Cancelada,11/5/2024,Cardiología,139,84,3
+926,Revisión anual y chequeo general,Confirmada,2/26/2024,Medicina General,178,23,118
+927,Control de presión arterial,Reprogramada,6/26/2025,Traumatología,46,160,530
+928,Resultados de laboratorio,Pendiente,4/10/2025,Pediatría,16,124,511
+929,Control de presión arterial,Confirmada,2/9/2026,Traumatología,51,48,335
+930,Dolor de cabeza persistente,Confirmada,1/19/2025,Dermatología,133,37,188
+931,Resultados de laboratorio,Pendiente,2/14/2026,Dermatología,28,155,257
+932,Control de presión arterial,Cancelada,5/10/2024,Cardiología,116,136,187
+933,Resultados de laboratorio,Reprogramada,10/8/2025,Cardiología,111,127,176
+934,Resultados de laboratorio,Pendiente,4/18/2025,Cardiología,162,82,356
+935,Revisión anual y chequeo general,Reprogramada,8/14/2025,Cardiología,101,189,225
+936,Revisión anual y chequeo general,Pendiente,2/16/2026,Medicina General,107,122,121
+937,Dolor de cabeza persistente,Pendiente,8/29/2025,Pediatría,150,194,35
+938,Dolor de cabeza persistente,Confirmada,1/12/2025,Ginecología,63,137,447
+939,Revisión anual y chequeo general,Pendiente,9/20/2026,Ginecología,30,110,575
+940,Control de presión arterial,Confirmada,7/17/2026,Medicina General,147,175,331
+941,Control de presión arterial,Confirmada,8/20/2024,Medicina General,135,82,267
+942,Revisión anual y chequeo general,Pendiente,4/20/2024,Dermatología,49,45,38
+943,Resultados de laboratorio,Confirmada,3/11/2026,Medicina General,139,178,269
+944,Revisión anual y chequeo general,Reprogramada,6/9/2024,Dermatología,34,137,90
+945,Revisión anual y chequeo general,Cancelada,1/29/2024,Cardiología,52,176,133
+946,Revisión anual y chequeo general,Reprogramada,9/9/2025,Pediatría,130,195,391
+947,Consulta de seguimiento,Reprogramada,1/8/2024,Pediatría,51,152,341
+948,Dolor de cabeza persistente,Reprogramada,8/19/2025,Medicina General,142,192,246
+949,Control de presión arterial,Pendiente,11/3/2026,Medicina General,135,95,470
+950,Resultados de laboratorio,Pendiente,9/14/2024,Medicina General,153,192,185
+951,Dolor de cabeza persistente,Confirmada,6/10/2026,Ginecología,129,157,482
+952,Resultados de laboratorio,Cancelada,7/27/2025,Ginecología,24,136,550
+953,Consulta de seguimiento,Reprogramada,5/13/2026,Cardiología,20,134,132
+954,Revisión anual y chequeo general,Confirmada,12/17/2025,Cardiología,121,184,363
+955,Dolor de cabeza persistente,Cancelada,7/29/2026,Ginecología,37,171,327
+956,Revisión anual y chequeo general,Confirmada,6/2/2024,Traumatología,122,170,315
+957,Dolor de cabeza persistente,Pendiente,3/1/2024,Traumatología,54,157,26
+958,Control de presión arterial,Pendiente,9/5/2026,Cardiología,139,157,468
+959,Control de presión arterial,Pendiente,2/4/2025,Pediatría,72,126,507
+960,Consulta de seguimiento,Pendiente,6/24/2025,Ginecología,132,134,123
+961,Resultados de laboratorio,Pendiente,6/12/2025,Pediatría,172,136,485
+962,Resultados de laboratorio,Confirmada,1/22/2025,Medicina General,126,156,144
+963,Control de presión arterial,Cancelada,3/23/2024,Traumatología,15,132,405
+964,Revisión anual y chequeo general,Cancelada,1/5/2025,Traumatología,125,190,464
+965,Resultados de laboratorio,Confirmada,1/23/2026,Cardiología,164,191,507
+966,Revisión anual y chequeo general,Pendiente,11/20/2024,Cardiología,68,55,547
+967,Revisión anual y chequeo general,Confirmada,9/13/2025,Traumatología,171,99,196
+968,Consulta de seguimiento,Reprogramada,10/25/2025,Dermatología,101,85,532
+969,Consulta de seguimiento,Reprogramada,2/17/2026,Ginecología,169,172,125
+970,Dolor de cabeza persistente,Reprogramada,8/23/2026,Ginecología,108,107,262
+971,Dolor de cabeza persistente,Confirmada,6/3/2026,Ginecología,86,62,175
+972,Dolor de cabeza persistente,Reprogramada,9/1/2024,Pediatría,19,37,163
+973,Resultados de laboratorio,Cancelada,8/12/2025,Pediatría,110,125,530
+974,Dolor de cabeza persistente,Cancelada,9/4/2026,Pediatría,52,36,61
+975,Consulta de seguimiento,Pendiente,12/20/2026,Traumatología,119,28,221
+976,Resultados de laboratorio,Pendiente,9/13/2026,Traumatología,158,116,267
+977,Dolor de cabeza persistente,Confirmada,11/13/2026,Dermatología,105,158,20
+978,Resultados de laboratorio,Pendiente,1/4/2024,Medicina General,149,37,128
+979,Consulta de seguimiento,Pendiente,10/11/2025,Medicina General,37,92,561
+980,Consulta de seguimiento,Cancelada,8/10/2025,Ginecología,53,112,123
+981,Revisión anual y chequeo general,Reprogramada,4/13/2026,Dermatología,65,76,570
+982,Dolor de cabeza persistente,Cancelada,10/9/2025,Medicina General,64,25,300
+983,Control de presión arterial,Confirmada,8/9/2024,Traumatología,160,176,42
+984,Revisión anual y chequeo general,Confirmada,9/10/2025,Cardiología,7,60,284
+985,Dolor de cabeza persistente,Confirmada,8/2/2026,Cardiología,9,80,474
+986,Consulta de seguimiento,Confirmada,3/29/2024,Ginecología,112,128,224
+987,Control de presión arterial,Cancelada,7/28/2026,Medicina General,11,198,112
+988,Revisión anual y chequeo general,Confirmada,10/23/2025,Traumatología,89,46,333
+989,Revisión anual y chequeo general,Reprogramada,12/11/2025,Pediatría,139,111,515
+990,Control de presión arterial,Cancelada,8/25/2026,Pediatría,56,170,145
+991,Control de presión arterial,Cancelada,4/25/2026,Cardiología,91,87,142
+992,Control de presión arterial,Pendiente,6/13/2024,Ginecología,54,33,421
+993,Consulta de seguimiento,Cancelada,3/21/2026,Ginecología,144,160,350
+994,Control de presión arterial,Pendiente,6/9/2026,Dermatología,57,30,572
+995,Resultados de laboratorio,Cancelada,6/21/2025,Traumatología,101,123,190
+996,Revisión anual y chequeo general,Reprogramada,7/5/2025,Ginecología,54,4,53
+997,Resultados de laboratorio,Cancelada,10/24/2025,Cardiología,152,109,76
+998,Revisión anual y chequeo general,Confirmada,11/21/2026,Dermatología,48,169,424
+999,Dolor de cabeza persistente,Confirmada,7/3/2025,Traumatología,167,183,468
+1000,Resultados de laboratorio,Cancelada,2/13/2025,Ginecología,32,40,26
