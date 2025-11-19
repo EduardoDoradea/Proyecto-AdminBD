@@ -30,34 +30,15 @@ SET STATISTICS IO ON
 use DB_Hospital
 --         REALIZADA
 -- 2 medicos que mas servicios han brindado (MODIFICAR CONSULTA PARA HACERLO MEDIANTE EL TIEMPO COMO UN GRAFICO DE LINEAS DE TIEMPO)
-SELECT med.nombre, ci.fecha,
-COUNT(ci.idCita) OVER(PARTITION BY)tratamientosMedico
-FROM Clinica.Cita AS ci
-JOIN Clinica.Medico AS med ON ci.idMedico = med.idMedico
-GROUP BY med.nombre, med.idMedico, ci.idCita, ci.fecha
 
-SELECT med.nombre, 
-COUNT(ci.idCita) tratamientosMedico,
-DENSE_RANK() OVER(ORDER BY COUNT(ci.idCita)DESC) rankingMedicoServicios
-FROM Clinica.Cita AS ci
-JOIN Clinica.Medico AS med ON ci.idMedico = med.idMedico
-GROUP BY med.nombre;
-
-SELECT DATEPART(YEAR, ci.fecha) AS anio, DATEPART(MONTH,ci.fecha) AS meses, 
-COUNT(ci.idCita) OVER(PARTITION BY DATEPART(YEAR, ci.fecha)) AS ConteoTratamientosMedico, 
-med.nombre, med.apellido,
-DENSE_RANK() OVER(ORDER BY COUNT(ci.idCita)DESC) rankingMedicoServicios
+SELECT DATEPART(YEAR, ci.fecha) AS anio, 
+COUNT(*) AS ConteoTratamientosMedico, 
+med.nombre
+--DENSE_RANK() OVER(PARTITION BY COUNT(*) ORDER BY DATEPART(YEAR, ci.fecha)DESC) rankingMedicoServicios
 FROM Clinica.Medico as med
 JOIN Clinica.Cita AS ci on med.idMedico = ci.idMedico
-GROUP BY DATEPART(YEAR, ci.fecha), DATEPART(MONTH, ci.fecha), med.nombre, med.apellido,ci.idCita
-ORDER BY DATEPART(YEAR, ci.fecha), DATEPART(MONTH, ci.fecha), med.nombre
-
-SELECT DATEPART(YEAR, ci.fecha) AS anio, DATEPART(MONTH,ci.fecha) AS meses, 
-COUNT(ci.idCita) OVER(PARTITION BY med.nombre) AS ConteoTratamientosMedico, med.nombre, med.apellido
-FROM Clinica.Medico as med
-JOIN Clinica.Cita AS ci on med.idMedico = ci.idMedico
-GROUP BY DATEPART(YEAR, ci.fecha), DATEPART(MONTH, ci.fecha), med.nombre, ci.idCita, med.apellido
-ORDER BY DATEPART(YEAR, ci.fecha), DATEPART(MONTH, ci.fecha), med.nombre
+GROUP BY DATEPART(YEAR, ci.fecha), med.nombre
+ORDER BY DATEPART(YEAR, ci.fecha), med.nombre
 
 SET STATISTICS TIME OFF 
 SET STATISTICS IO OFF
