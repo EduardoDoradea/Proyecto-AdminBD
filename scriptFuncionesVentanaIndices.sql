@@ -27,18 +27,15 @@ ON Clinica.Cita (especialidad, idCita, idPaciente);
 SET STATISTICS TIME ON 
 SET STATISTICS IO ON
 
-use DB_Hospital
 --         REALIZADA
 -- 2 medicos que mas servicios han brindado (MODIFICAR CONSULTA PARA HACERLO MEDIANTE EL TIEMPO COMO UN GRAFICO DE LINEAS DE TIEMPO)
-
 SELECT DATEPART(YEAR, ci.fecha) AS anio, 
 COUNT(*) AS ConteoTratamientosMedico, 
-med.nombre
---DENSE_RANK() OVER(PARTITION BY COUNT(*) ORDER BY DATEPART(YEAR, ci.fecha)DESC) rankingMedicoServicios
+med.nombre AS nombreMedico,
+DENSE_RANK() OVER(PARTITION BY DATEPART(YEAR, ci.fecha) ORDER BY COUNT(*)DESC) AS rankingServicios
 FROM Clinica.Medico as med
 JOIN Clinica.Cita AS ci on med.idMedico = ci.idMedico
 GROUP BY DATEPART(YEAR, ci.fecha), med.nombre
-ORDER BY DATEPART(YEAR, ci.fecha), med.nombre
 
 SET STATISTICS TIME OFF 
 SET STATISTICS IO OFF
