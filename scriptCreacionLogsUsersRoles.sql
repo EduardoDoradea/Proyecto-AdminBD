@@ -72,15 +72,17 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON Clinica.Tratamiento TO R_Medico;
 EXECUTE AS USER = 'U_Medico';
 
 --SIN ERROR
-select * from Inventario.Medicamento
-select * from Inventario.Analgesico
-select * from Clinica.Cita
-select * from Clinica.Paciente
-select * from Administracion.Departamento
-select * from Clinica.Tratamiento
+SELECT * FROM Inventario.Medicamento
+SELECT * FROM Inventario.Analgesico
+SELECT * FROM Clinica.Cita
+SELECT * FROM Clinica.Paciente
+SELECT * FROM Administracion.Departamento
+SELECT * FROM Clinica.Tratamiento
 
 --CON ERROR
-select * from Inventario.Bodega
+SELECT * FROM Inventario.Bodega
+SELECT * FROM Contabilidad.Factura
+SELECT * FROM Contabilidad.MetodoPago
 
 REVERT
 
@@ -93,13 +95,16 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON Inventario.Analgesico TO R_Farmaceutico;
 --PROBANDOLOS
 --SIN ERROR
 EXECUTE AS USER = 'U_Farmaceutico';
-select * from Inventario.InstrumentoMedico
-select * from Inventario.Bodega
-select * from Inventario.Medicamento
-select * from Inventario.Analgesico
+SELECT * FROM Inventario.InstrumentoMedico
+SELECT * FROM Inventario.Bodega
+SELECT * FROM Inventario.Medicamento
+SELECT * FROM Inventario.Analgesico
 
 --CON ERROR
-select * from Clinica.Tratamiento
+SELECT * FROM Clinica.Tratamiento
+SELECT * FROM Clinica.Paciente
+SELECT * FROM Contabilidad.Factura
+SELECT * FROM Contabilidad.MetodoPago
 
 REVERT
 
@@ -125,6 +130,7 @@ SELECT * FROM Administracion.Departamento
 
 --CON ERROR
 SELECT * FROM Inventario.Bodega
+SELECT * FROM Inventario.Medicamento
 
 REVERT
 
@@ -144,6 +150,9 @@ SELECT * FROM Inventario.Bodega
 
 --CON ERROR
 SELECT * FROM Clinica.Paciente
+SELECT * FROM Clinica.Tratamiento
+SELECT * FROM Contabilidad.Factura
+SELECT * FROM Contabilidad.MetodoPago
 
 REVERT
 
